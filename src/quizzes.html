@@ -31,14 +31,77 @@
 
     <main>
         <section class="hero">
-            <h1>Test Your Knowledge</h1>
-            <p>Practice quizzes for every subject.</p>
+            <h1>LearnMatrix Academy</h1>
+            <p>Knowledge is Power. Test yours in the Matrix.</p>
         </section>
 
-        <div style="text-align: center; padding: 4rem; background: #fff; border-radius: 8px;">
-            <div style="font-size: 3rem; margin-bottom: 1rem;">📝</div>
-            <h2>Coming Soon!</h2>
-            <p>Interactive quizzes are under development. Check back later to test your skills!</p>
+        <div class="quiz-container">
+            <!-- Subject Selection -->
+            <div id="subject-selection" class="fade-in">
+                <h2 style="text-align: center; margin-bottom: 2rem;">Select Your Specialization</h2>
+                <div class="quiz-subjects">
+                    <div class="subject-card" onclick="startQuiz('AP Micro')">
+                        <span style="font-size: 3rem;">📉</span>
+                        <h3>AP Micro</h3>
+                        <p>Market structures and supply/demand.</p>
+                    </div>
+                    <div class="subject-card" onclick="startQuiz('AP Macro')">
+                        <span style="font-size: 3rem;">🌍</span>
+                        <h3>AP Macro</h3>
+                        <p>Global economics and national policy.</p>
+                    </div>
+                    <div class="subject-card" onclick="startQuiz('AP Statistics')">
+                        <span style="font-size: 3rem;">📊</span>
+                        <h3>AP Stats</h3>
+                        <p>Data analysis and probability.</p>
+                    </div>
+                    <div class="subject-card" onclick="startQuiz('AP Euro')">
+                        <span style="font-size: 3rem;">🏰</span>
+                        <h3>AP Euro</h3>
+                        <p>Modern European History.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quiz Application -->
+            <div id="quiz-app" class="quiz-app fade-in">
+                <div class="quiz-header">
+                    <button onclick="exitQuiz()" class="btn-link"
+                        style="color: #888; border: none; background: none; cursor: pointer;">&larr; Exit</button>
+                    <div class="progress-container">
+                        <div id="progress-bar" class="progress-bar"></div>
+                    </div>
+                    <div id="stats" class="quiz-stats">Q: 1/10</div>
+                </div>
+
+                <div class="streak-counter" id="streak" style="display: none;">🔥 3 STREAK!</div>
+
+                <div class="question-area" id="question-area">
+                    <h2 id="question-text">Loading question...</h2>
+                    <div class="options-grid" id="options-grid">
+                        <!-- Options will be injected here -->
+                    </div>
+                </div>
+
+                <div class="quiz-footer">
+                    <button id="next-btn" class="btn" style="display: none;" onclick="nextQuestion()">Next Question
+                        &rarr;</button>
+                </div>
+            </div>
+
+            <!-- Summary Screen -->
+            <div id="summary-screen" class="summary-screen fade-in">
+                <div class="score-circle">
+                    <div id="final-score" class="score-num">0</div>
+                    <div style="font-size: 0.8rem; opacity: 0.7;">TOTAL XP</div>
+                </div>
+                <h2 id="result-title">Quiz Complete!</h2>
+                <p id="result-msg">You've mastered this unit.</p>
+                <div style="margin-top: 2rem; display: flex; gap: 1rem; justify-content: center;">
+                    <button class="btn" onclick="retryQuiz()">Try Again</button>
+                    <button class="btn btn-secondary" onclick="exitQuiz()">Main Menu</button>
+                </div>
+            </div>
         </div>
     </main>
 
@@ -72,6 +135,149 @@
         </div>
     </footer>
 
+    <script>
+        let currentQuizData = null;
+        let questions = [];
+        let currentQuestionIndex = 0;
+        let score = 0;
+        let streak = 0;
+        let maxQuestions = 10;
+        let selectedAnswer = null;
+
+        async function loadQuizData() {
+            try {
+                // Use relative path so it works on local and GH pages
+                const response = await fetch('assets/data/quizzes.json');
+                currentQuizData = await response.json();
+                console.log('Quiz data loaded');
+            } catch (error) {
+                console.error('Error loading quiz data:', error);
+            }
+        }
+
+        function startQuiz(subject) {
+            if (!currentQuizData || !currentQuizData[subject]) {
+                alert("Quiz data coming soon for " + subject);
+                return;
+            }
+
+            const allQuestions = currentQuizData[subject];
+            questions = [...allQuestions].sort(() => 0.5 - Math.random()).slice(0, maxQuestions);
+
+            currentQuestionIndex = 0;
+            score = 0;
+            streak = 0;
+
+            document.getElementById('subject-selection').style.display = 'none';
+            document.getElementById('summary-screen').style.display = 'none';
+            document.getElementById('quiz-app').style.display = 'block';
+
+            showQuestion();
+        }
+
+        function showQuestion() {
+            const q = questions[currentQuestionIndex];
+            selectedAnswer = null;
+
+            document.getElementById('question-text').innerText = q.question;
+            const optionsGrid = document.getElementById('options-grid');
+            optionsGrid.innerHTML = '';
+
+            q.options.forEach((opt, index) => {
+                const btn = document.createElement('button');
+                btn.className = 'option-btn fade-in';
+                btn.innerHTML = `<span style="margin-right: 15px; opacity: 0.5;">${String.fromCharCode(65 + index)}</span> ${opt}`;
+                btn.onclick = () => selectOption(index, btn);
+                optionsGrid.appendChild(btn);
+            });
+
+            document.getElementById('next-btn').style.display = 'none';
+            updateProgress();
+        }
+
+        function selectOption(index, btn) {
+            if (selectedAnswer !== null) return;
+
+            selectedAnswer = index;
+            const q = questions[currentQuestionIndex];
+            const buttons = document.querySelectorAll('.option-btn');
+
+            if (index === q.answer) {
+                btn.classList.add('correct');
+                score += 100 + (streak * 10);
+                streak++;
+                showStreak();
+            } else {
+                btn.classList.add('wrong');
+                buttons[q.answer].classList.add('correct');
+                streak = 0;
+                hideStreak();
+            }
+
+            document.getElementById('next-btn').style.display = 'block';
+        }
+
+        function nextQuestion() {
+            currentQuestionIndex++;
+            if (currentQuestionIndex < questions.length) {
+                showQuestion();
+            } else {
+                showSummary();
+            }
+        }
+
+        function updateProgress() {
+            const progress = ((currentQuestionIndex) / maxQuestions) * 100;
+            document.getElementById('progress-bar').style.width = `${progress}%`;
+            document.getElementById('stats').innerText = `Q: ${currentQuestionIndex + 1}/${maxQuestions}`;
+        }
+
+        function showStreak() {
+            const s = document.getElementById('streak');
+            if (streak > 1) {
+                s.innerText = `🔥 ${streak} STREAK!`;
+                s.style.display = 'block';
+                s.className = 'streak-counter fade-in';
+            }
+        }
+
+        function hideStreak() {
+            document.getElementById('streak').style.display = 'none';
+        }
+
+        function showSummary() {
+            document.getElementById('quiz-app').style.display = 'none';
+            document.getElementById('summary-screen').style.display = 'block';
+            document.getElementById('final-score').innerText = score;
+
+            let title = "Great Job!";
+            let msg = "You've earned significant XP today.";
+
+            if (score > 900) { title = "Matrix Master!"; msg = "Incredible accuracy. You are the Chosen One."; }
+            else if (score < 400) { title = "Keep Training"; msg = "The concepts are complex, but you're getting there."; }
+
+            document.getElementById('result-title').innerText = title;
+            document.getElementById('result-msg').innerText = msg;
+
+            document.getElementById('progress-bar').style.width = '100%';
+        }
+
+        function retryQuiz() {
+            const currentSubject = Object.keys(currentQuizData).find(k =>
+                currentQuizData[k].some(q => q.question === questions[0].question)
+            );
+            startQuiz(currentSubject);
+        }
+
+        function exitQuiz() {
+            document.getElementById('quiz-app').style.display = 'none';
+            document.getElementById('summary-screen').style.display = 'none';
+            document.getElementById('subject-selection').style.display = 'block';
+        }
+
+        // Initialize
+        loadQuizData();
+    </script>
     <script src="assets/js/script.js"></script>
 </body>
 
