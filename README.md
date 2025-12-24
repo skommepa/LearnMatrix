@@ -1,5 +1,5 @@
 # LearnMatrix - Student Learning Hub
-![LearnMatrix Home](https://github.com/Akshaj7/LearnMatrix/blob/main/screenshots/Home%20Page.png?raw=true)
+![LearnMatrix Home](https://github.com/skommepa/LearnMatrix/blob/main/screenshots/Home%20Page.png?raw=true)
 
 **LearnMatrix** is a comprehensive Student Learning Hub designed for the **FBLA Website Design Competition (2025-2026)**. The topic "Design to Learn" focuses on creating a platform where students can access resources, track progress, and collaborate in real-time.
 
@@ -33,7 +33,7 @@
 
 1.  **Clone the repository**
     ```bash
-    git clone https://github.com/Akshaj7/LearnMatrix.git
+    git clone https://github.com/skommepa/LearnMatrix.git
     cd LearnMatrix
     ```
 
