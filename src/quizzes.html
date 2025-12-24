@@ -30,76 +30,116 @@
     </header>
 
     <main>
-        <section class="hero">
-            <h1>LearnMatrix Academy</h1>
-            <p>Knowledge is Power. Test yours in the Matrix.</p>
-        </section>
+        <div id="subject-selection" class="subject-selection-clean fade-in" style="padding: 2rem 0;">
+            <div class="hero">
+                <h1>Matrix Archives</h1>
+                <p>Knowledge is the ultimate currency. Select your specialization.</p>
+            </div>
 
-        <div class="quiz-container">
-            <!-- Subject Selection -->
-            <div id="subject-selection" class="fade-in">
-                <h2 style="text-align: center; margin-bottom: 2rem;">Select Your Specialization</h2>
-                <div class="quiz-subjects">
-                    <div class="subject-card" onclick="startQuiz('AP Micro')">
+            <section class="features" style="margin-top: 2rem;">
+                <div class="feature-card" onclick="startQuiz('AP Micro')">
+                    <div class="card-image-placeholder"
+                        style="background: linear-gradient(135deg, #FF6B6B 0%, #FF8E53 100%);">
                         <span style="font-size: 3rem;">📉</span>
-                        <h3>AP Micro</h3>
-                        <p>Market structures and supply/demand.</p>
                     </div>
-                    <div class="subject-card" onclick="startQuiz('AP Macro')">
+                    <div class="card-content">
+                        <h3>AP Microeconomics</h3>
+                        <p>Market behaviors and individual decision making.</p>
+                        <span class="btn-link">Initialize Quiz &rarr;</span>
+                    </div>
+                </div>
+                <div class="feature-card" onclick="startQuiz('AP Macro')">
+                    <div class="card-image-placeholder"
+                        style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
                         <span style="font-size: 3rem;">🌍</span>
-                        <h3>AP Macro</h3>
-                        <p>Global economics and national policy.</p>
                     </div>
-                    <div class="subject-card" onclick="startQuiz('AP Statistics')">
+                    <div class="card-content">
+                        <h3>AP Macroeconomics</h3>
+                        <p>Global economic systems and national indicators.</p>
+                        <span class="btn-link">Initialize Quiz &rarr;</span>
+                    </div>
+                </div>
+                <div class="feature-card" onclick="startQuiz('AP Statistics')">
+                    <div class="card-image-placeholder"
+                        style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
                         <span style="font-size: 3rem;">📊</span>
-                        <h3>AP Stats</h3>
-                        <p>Data analysis and probability.</p>
                     </div>
-                    <div class="subject-card" onclick="startQuiz('AP Euro')">
+                    <div class="card-content">
+                        <h3>AP Statistics</h3>
+                        <p>Probability patterns and data-driven inference.</p>
+                        <span class="btn-link">Initialize Quiz &rarr;</span>
+                    </div>
+                </div>
+                <div class="feature-card" onclick="startQuiz('AP Euro')">
+                    <div class="card-image-placeholder"
+                        style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
                         <span style="font-size: 3rem;">🏰</span>
-                        <h3>AP Euro</h3>
-                        <p>Modern European History.</p>
                     </div>
+                    <div class="card-content">
+                        <h3>AP European History</h3>
+                        <p>The cultural and political evolution of Europe.</p>
+                        <span class="btn-link">Initialize Quiz &rarr;</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- NEW HUD INTERFACE -->
+        <div id="quiz-hud" class="quiz-hud-container" style="display: none;">
+            <div id="hud-card" class="quiz-hud-card fade-in">
+                <div id="streak-badge" class="streak-hud-badge">🔥 3 STREAK</div>
+                <div class="success-glow" id="success-glow"></div>
+
+                <div class="hud-header">
+                    <div>
+                        <button onclick="exitQuiz()" class="btn-link"
+                            style="color: rgba(255,255,255,0.4); text-decoration: none; font-size: 0.9rem;">[ABORT
+                            SESSION]</button>
+                    </div>
+                    <div style="display: flex; gap: 3rem;">
+                        <div class="hud-stat-group">
+                            <div class="hud-label">Current Score</div>
+                            <div id="hud-score" class="hud-value">0000</div>
+                        </div>
+                        <div class="hud-stat-group">
+                            <div class="hud-label">Session Progress</div>
+                            <div id="hud-stats" class="hud-value">01 / 10</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="progress-container"
+                    style="margin: -1.5rem 0 3rem 0; height: 4px; background: rgba(255,255,255,0.05);">
+                    <div id="progress-bar" class="progress-bar"
+                        style="height: 100%; box-shadow: 0 0 15px var(--primary-color);"></div>
+                </div>
+
+                <div class="question-hud">
+                    <h2 id="question-text">Initializing Question...</h2>
+                    <div class="options-hud-grid" id="options-grid">
+                        <!-- Options injected here -->
+                    </div>
+                </div>
+
+                <div class="quiz-footer" style="padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.05);">
+                    <button id="next-btn" class="btn" style="display: none; width: 200px;" onclick="nextQuestion()">NEXT
+                        SCAN &rarr;</button>
                 </div>
             </div>
+        </div>
 
-            <!-- Quiz Application -->
-            <div id="quiz-app" class="quiz-app fade-in">
-                <div class="quiz-header">
-                    <button onclick="exitQuiz()" class="btn-link"
-                        style="color: #888; border: none; background: none; cursor: pointer;">&larr; Exit</button>
-                    <div class="progress-container">
-                        <div id="progress-bar" class="progress-bar"></div>
-                    </div>
-                    <div id="stats" class="quiz-stats">Q: 1/10</div>
-                </div>
-
-                <div class="streak-counter" id="streak" style="display: none;">🔥 3 STREAK!</div>
-
-                <div class="question-area" id="question-area">
-                    <h2 id="question-text">Loading question...</h2>
-                    <div class="options-grid" id="options-grid">
-                        <!-- Options will be injected here -->
-                    </div>
-                </div>
-
-                <div class="quiz-footer">
-                    <button id="next-btn" class="btn" style="display: none;" onclick="nextQuestion()">Next Question
-                        &rarr;</button>
-                </div>
-            </div>
-
-            <!-- Summary Screen -->
-            <div id="summary-screen" class="summary-screen fade-in">
+        <div id="summary-screen" class="quiz-hud-container" style="display: none;">
+            <div class="quiz-hud-card fade-in" style="text-align: center;">
+                <h1 id="result-title" style="margin-bottom: 2rem;">ANALYSIS COMPLETE</h1>
                 <div class="score-circle">
                     <div id="final-score" class="score-num">0</div>
-                    <div style="font-size: 0.8rem; opacity: 0.7;">TOTAL XP</div>
+                    <div class="hud-label">TOTAL XP</div>
                 </div>
-                <h2 id="result-title">Quiz Complete!</h2>
-                <p id="result-msg">You've mastered this unit.</p>
-                <div style="margin-top: 2rem; display: flex; gap: 1rem; justify-content: center;">
-                    <button class="btn" onclick="retryQuiz()">Try Again</button>
-                    <button class="btn btn-secondary" onclick="exitQuiz()">Main Menu</button>
+                <p id="result-msg" style="margin: 2rem 0; font-size: 1.2rem; opacity: 0.8;">Synchronization successful.
+                </p>
+                <div style="display: flex; gap: 1rem; justify-content: center; margin-top: 3rem;">
+                    <button class="btn" onclick="retryQuiz()">RE-INITIALIZE</button>
+                    <button class="btn btn-secondary" onclick="exitQuiz()">MAIN ARCHIVE</button>
                 </div>
             </div>
         </div>
@@ -146,18 +186,17 @@
 
         async function loadQuizData() {
             try {
-                // Use relative path so it works on local and GH pages
                 const response = await fetch('assets/data/quizzes.json');
                 currentQuizData = await response.json();
-                console.log('Quiz data loaded');
+                console.log('Matrix archives accessed');
             } catch (error) {
-                console.error('Error loading quiz data:', error);
+                console.error('Archive link severed:', error);
             }
         }
 
         function startQuiz(subject) {
             if (!currentQuizData || !currentQuizData[subject]) {
-                alert("Quiz data coming soon for " + subject);
+                alert("Data packets not found for: " + subject);
                 return;
             }
 
@@ -170,7 +209,9 @@
 
             document.getElementById('subject-selection').style.display = 'none';
             document.getElementById('summary-screen').style.display = 'none';
-            document.getElementById('quiz-app').style.display = 'block';
+            document.getElementById('quiz-hud').style.display = 'block';
+
+            document.getElementById('hud-score').innerText = '0000';
 
             showQuestion();
         }
@@ -179,14 +220,21 @@
             const q = questions[currentQuestionIndex];
             selectedAnswer = null;
 
-            document.getElementById('question-text').innerText = q.question;
+            const qText = document.getElementById('question-text');
+            qText.innerText = q.question;
+            qText.className = 'fade-in';
+
             const optionsGrid = document.getElementById('options-grid');
             optionsGrid.innerHTML = '';
 
             q.options.forEach((opt, index) => {
                 const btn = document.createElement('button');
-                btn.className = 'option-btn fade-in';
-                btn.innerHTML = `<span style="margin-right: 15px; opacity: 0.5;">${String.fromCharCode(65 + index)}</span> ${opt}`;
+                btn.className = 'option-hud-btn fade-in';
+                btn.style.animationDelay = `${index * 0.1}s`;
+                btn.innerHTML = `
+                    <div class="option-prefix">${String.fromCharCode(65 + index)}</div>
+                    <div class="option-content">${opt}</div>
+                `;
                 btn.onclick = () => selectOption(index, btn);
                 optionsGrid.appendChild(btn);
             });
@@ -200,21 +248,79 @@
 
             selectedAnswer = index;
             const q = questions[currentQuestionIndex];
-            const buttons = document.querySelectorAll('.option-btn');
+            const buttons = document.querySelectorAll('.option-hud-btn');
 
             if (index === q.answer) {
                 btn.classList.add('correct');
-                score += 100 + (streak * 10);
+                const baseXP = 100;
+                const bonus = streak * 25;
+                const earned = baseXP + bonus;
+
+                score += earned;
                 streak++;
-                showStreak();
+
+                triggerSuccess();
+                showStreakBadge(earned);
             } else {
                 btn.classList.add('wrong');
                 buttons[q.answer].classList.add('correct');
                 streak = 0;
-                hideStreak();
+                hideStreakBadge();
+                triggerFail();
             }
 
+            animateScore(score);
             document.getElementById('next-btn').style.display = 'block';
+        }
+
+        function animateScore(target) {
+            const scoreEl = document.getElementById('hud-score');
+            const start = parseInt(scoreEl.innerText);
+            const duration = 800;
+            let startTime = null;
+
+            function step(timestamp) {
+                if (!startTime) startTime = timestamp;
+                const progress = Math.min((timestamp - startTime) / duration, 1);
+                const current = Math.floor(progress * (target - start) + start);
+                scoreEl.innerText = current.toString().padStart(4, '0');
+                if (progress < 1) window.requestAnimationFrame(step);
+            }
+            window.requestAnimationFrame(step);
+        }
+
+        function updateProgress() {
+            const progress = ((currentQuestionIndex) / maxQuestions) * 100;
+            document.getElementById('progress-bar').style.width = `${progress}%`;
+            document.getElementById('hud-stats').innerText = `${(currentQuestionIndex + 1).toString().padStart(2, '0')} / ${maxQuestions}`;
+        }
+
+        function triggerSuccess() {
+            const glow = document.getElementById('success-glow');
+            glow.style.opacity = '1';
+            setTimeout(() => glow.style.opacity = '0', 1000);
+
+            const card = document.getElementById('hud-card');
+            card.style.transform = 'scale(1.02) rotateX(2deg)';
+            setTimeout(() => card.style.transform = 'scale(1)', 300);
+        }
+
+        function triggerFail() {
+            const card = document.getElementById('hud-card');
+            card.style.animation = 'shake 0.4s ease-in-out';
+            setTimeout(() => card.style.animation = '', 400);
+        }
+
+        function showStreakBadge(added) {
+            const badge = document.getElementById('streak-badge');
+            if (streak > 0) {
+                badge.innerText = `🔥 ${streak} STREAK (+${added} XP)`;
+                badge.style.display = 'block';
+            }
+        }
+
+        function hideStreakBadge() {
+            document.getElementById('streak-badge').style.display = 'none';
         }
 
         function nextQuestion() {
@@ -226,56 +332,36 @@
             }
         }
 
-        function updateProgress() {
-            const progress = ((currentQuestionIndex) / maxQuestions) * 100;
-            document.getElementById('progress-bar').style.width = `${progress}%`;
-            document.getElementById('stats').innerText = `Q: ${currentQuestionIndex + 1}/${maxQuestions}`;
-        }
-
-        function showStreak() {
-            const s = document.getElementById('streak');
-            if (streak > 1) {
-                s.innerText = `🔥 ${streak} STREAK!`;
-                s.style.display = 'block';
-                s.className = 'streak-counter fade-in';
-            }
-        }
-
-        function hideStreak() {
-            document.getElementById('streak').style.display = 'none';
-        }
-
         function showSummary() {
-            document.getElementById('quiz-app').style.display = 'none';
+            document.getElementById('quiz-hud').style.display = 'none';
             document.getElementById('summary-screen').style.display = 'block';
             document.getElementById('final-score').innerText = score;
 
-            let title = "Great Job!";
-            let msg = "You've earned significant XP today.";
+            let title = "ANALYSIS COMPLETE";
+            let msg = "Neural sync successful. You've earned significant XP.";
 
-            if (score > 900) { title = "Matrix Master!"; msg = "Incredible accuracy. You are the Chosen One."; }
-            else if (score < 400) { title = "Keep Training"; msg = "The concepts are complex, but you're getting there."; }
+            if (score > 1200) { title = "MATRIX MASTER"; msg = "Absolute precision. You are the Chosen One."; }
+            else if (score < 500) { title = "SYNC FAILED"; msg = "Data corruption detected. Re-initialize for better results."; }
 
             document.getElementById('result-title').innerText = title;
             document.getElementById('result-msg').innerText = msg;
-
             document.getElementById('progress-bar').style.width = '100%';
         }
 
         function retryQuiz() {
-            const currentSubject = Object.keys(currentQuizData).find(k =>
-                currentQuizData[k].some(q => q.question === questions[0].question)
+            const qHeader = questions[0].question;
+            const currentSub = Object.keys(currentQuizData).find(s =>
+                currentQuizData[s].some(q => q.question === qHeader)
             );
-            startQuiz(currentSubject);
+            startQuiz(currentSub);
         }
 
         function exitQuiz() {
-            document.getElementById('quiz-app').style.display = 'none';
+            document.getElementById('quiz-hud').style.display = 'none';
             document.getElementById('summary-screen').style.display = 'none';
             document.getElementById('subject-selection').style.display = 'block';
         }
 
-        // Initialize
         loadQuizData();
     </script>
     <script src="assets/js/script.js"></script>
