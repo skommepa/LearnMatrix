@@ -1,0 +1,627 @@
+Unit-1
+AP Statistics Unit 1 
+1. A school survey records each student’s backpack color and the number of textbooks carried. Which statement is correct? A. Both variables are categorical B. Both variables are quantitative C. Backpack color is categorical; number of textbooks is quantitative D. Backpack color is quantitative; number of textbooks is categorical
+2. Which graphical display is least appropriate for displaying the distribution of a quantitative variable? A. Histogram B. Boxplot C. Dotplot D. Pie chart
+3. A relative frequency histogram differs from a frequency histogram because it:** A. Has a different shape B. Shows proportions instead of counts C. Uses class midpoints D. Requires cumulative totals
+4. In a data set, 30% of the observations are at or below 68. The value 68 is best described as the:** A. Mean B. Median C. 30th percentile D. First quartile
+5. Which situation best describes a discrete quantitative variable? A. The weights of students B. The heights of trees C. The number of cars in a parking lot D. The amount of rainfall
+6. A distribution is unimodal and symmetric. Which statement must be true? A. The mean equals the median B. The mean equals the range C. The IQR equals the standard deviation D. The distribution has no outliers
+7. A data set has a mean of 70 and a median of 64. Which is the most reasonable description of the distribution? A. Symmetric B. Skewed left C. Skewed right D. Uniform
+8. Which measure of center is most resistant to extreme values? A. Mean B. Median C. Range D. Standard deviation
+9. The interquartile range (IQR) is best described as:** A. The difference between the largest and smallest values B. The average distance from the mean C. The spread of the middle 50% of the data D. The difference between the mean and median
+10. A data set is transformed by subtracting 10 from every value. What effect does this have? A. The mean decreases by 10, the standard deviation is unchanged B. The mean and standard deviation both decrease by 10 C. The median and IQR both increase by 10 D. The shape of the distribution changes
+11. A data set is transformed by multiplying every value by 3. Which statistic will not change? A. Mean B. Median C. Standard deviation D. Shape
+12. Which statistic is measured in squared units? A. Standard deviation B. Range C. Variance D. IQR
+13. Which of the following best describes the standard deviation? A. The maximum value in the data B. The middle 50% of the data C. A typical distance of data values from the mean D. The difference between Q3 and Q1
+14. A student scores a z-score of −1.5 on a test. This means the student scored:** A. 1.5 points below the mean B. Below 1.5% of all scores C. 1.5 standard deviations below the mean D. 1.5 standard deviations above the mean
+15. In a cumulative relative frequency graph, the point where the curve reaches 0.75 corresponds to the:** A. Median B. Mean C. Third quartile D. Range
+16. Two boxplots show test scores for Class A and Class B. Class A has a larger IQR, but both classes have the same median. Which conclusion is best supported? A. Class A scores are generally higher B. Class A scores are more variable C. Class B scores are skewed D. Class A has more outliers
+17. A distribution is skewed left. Which is most likely true? A. Mean > median B. Mean = median C. Mean < median D. Mean = mode
+18. Which situation best indicates the presence of clusters? A. A few unusually large values B. Gaps between values C. Groups of values separated by lower frequencies D. A long tail to the right
+19. When comparing two quantitative distributions, which feature is least important? A. Shape B. Center C. Spread D. Sample size
+20. A normal distribution with mean 50 and standard deviation 5 is used. Approximately what percent of observations fall between 45 and 55? A. 34% B. 68% C. 95% D. 99.7%
+21. In a normal distribution, the points of inflection occur:** A. At the mean B. One standard deviation from the mean C. Two standard deviations from the mean D. At the quartiles
+22. Which of the following distributions is most likely normal? A. Household incomes B. Test scores with a few perfect scores C. Heights of adult women D. Number of absences in a school
+23. A histogram of exam scores is approximately uniform. What does this indicate? A. Scores cluster around the mean B. All values occur with roughly equal frequency C. The distribution is symmetric D. The data are normally distributed
+24. A data set has no outliers and is symmetric. Which pair of statistics is most appropriate to describe it? A. Mean and standard deviation B. Median and IQR C. Range and mode D. Quartiles and percentiles
+25. Which statement about the empirical rule is correct? A. It applies to all distributions B. It applies only to skewed distributions C. It applies to approximately normal distributions D. It applies only when the sample size is large
+
+
+
+
+
+
+
+
+
+
+
+Answer Key
+	•	C
+	•	D
+	•	B
+	•	C
+	•	C
+	•	A
+	•	C
+	•	B
+	•	C
+	•	A
+	•	D
+	•	C
+	•	C
+	•	C
+	•	C
+	•	B
+	•	C
+	•	C
+	•	D
+	•	B
+	•	B
+	•	C
+	•	B
+	•	A
+	•	C
+
+Unit-2
+AP Statistics Unit 2
+1. In a two-way table, the marginal distribution of a variable is found by A. Dividing each cell by the table total B. Summing across rows or columns and converting to proportions C. Finding conditional percentages D. Comparing differences between cells
+2. A two-way table shows type of music preference (rock, pop, jazz) by grade level. Which question is best answered using a conditional distribution? A. How many students participated in the survey? B. What percent of all students prefer jazz? C. Among seniors, what percent prefer rock? D. Which music type has the highest frequency?
+3. Which statement provides evidence of an association between two categorical variables? A. The marginal distributions are identical B. Conditional distributions are approximately the same C. Conditional distributions differ substantially D. One category has the largest frequency
+4. If two categorical variables are independent, then A. The row totals equal the column totals B. The marginal distributions are equal C. The conditional distributions are the same across groups D. The table must be square
+5. A scatterplot shows points forming a curved pattern that opens upward. Which is the most appropriate description? A. Strong negative linear association B. Weak linear association C. Strong nonlinear association D. No association
+6. When describing a scatterplot, which of the following must always be included for full AP credit? A. Shape only B. Direction and strength only C. Correlation value D. Form, direction, strength, and context
+7. Which situation suggests a negative association? A. As temperature increases, ice cream sales increase B. As study time increases, test scores increase C. As speed increases, time to finish a race decreases D. As age increases, height increases
+8. Which statement about correlation is true? A. Correlation measures both linear and nonlinear relationships B. Correlation is affected by changes in units C. Correlation changes when x and y are switched D. Correlation measures the strength of a linear relationship
+9. A data set has a strong curved relationship. The correlation r is close to 0. This indicates that A. There is no relationship B. There is a weak linear relationship C. The variables are independent D. The relationship is negative
+10. Which value of r indicates the strongest linear relationship? A. −0.52 B. 0.67 C. −0.91 D. 0.38
+11. If all y-values are multiplied by −1, the correlation r will A. Remain unchanged B. Become zero C. Change sign D. Become positive
+12. If r = −0.6, what is r² and how should it be interpreted? A. 0.6; 60% of y is explained by x B. 0.36; 36% of the variation in y is explained by x C. −0.36; −36% of y is explained by x D. 0.6; 60% of x is explained by y
+13. An r² value of 0.82 means that A. 82% of the data points lie on the regression line B. 82% of the y-values are predicted exactly C. 82% of the variation in y is explained by the linear model D. 82% of the variation in x is explained by y
+14. The least-squares regression line always A. Passes through the origin B. Minimizes horizontal distances C. Passes through (x̄, ȳ) D. Maximizes r²
+15. The slope of a least-squares regression line represents A. The predicted y-value B. The correlation between x and y C. The change in y for a one-unit increase in x D. The mean of the residuals
+16. A regression slope is 0.8. Which interpretation is correct? A. For each additional unit of y, x increases by 0.8 B. For each additional unit of x, y decreases by 0.8 C. For each additional unit of x, y increases by 0.8 on average D. 80% of y is explained by x
+17. A residual is calculated as A. ŷ − y B. y − ŷ C. x − x̄ D. r × y
+18. A positive residual indicates that the regression model A. Overestimated the response B. Underestimated the response C. Is not linear D. Has an outlier
+19. Which statement about residuals is always true for a least-squares regression line? A. The residuals are normally distributed B. The residuals have constant spread C. The sum of the residuals is zero D. The residual plot shows no pattern
+20. A point with a very large x-value but small residual is best described as A. A regression outlier B. An influential point C. A point with high leverage D. A cluster
+21. Which point is most likely to be influential? A. A point with a large residual and average x-value B. A point with a small residual and extreme x-value C. A point near the center of the data D. A point that increases r² slightly
+22. Which statement correctly compares outliers and influential points? A. All outliers are influential B. All influential points are outliers C. A point can be influential without being an outlier D. Influence depends only on the y-value
+23. If r = 1, then each increase of one standard deviation in x results in A. One-unit increase in y B. r standard deviations increase in y C. One standard deviation increase in y D. No change in y
+24. A residual plot shows a clear curved pattern. This suggests that A. The correlation is weak B. There are outliers C. A linear model may not be appropriate D. r² is too small
+25. Which transformation is most likely to help linearize an exponential growth relationship? A. Square y B. Take the logarithm of y C. Subtract the mean from x D. Use a boxplot
+
+
+
+
+
+
+
+
+
+
+Answer Key
+	•	B
+	•	C
+	•	C
+	•	C
+	•	C
+	•	D
+	•	C
+	•	D
+	•	B
+	•	C
+	•	C
+	•	B
+	•	C
+	•	C
+	•	C
+	•	C
+	•	B
+	•	B
+	•	C
+	•	C
+	•	B
+	•	C
+	•	C
+	•	C
+	•	B
+
+
+Unit-3
+AP Statistics Unit 3
+1. Which feature distinguishes a prospective observational study from a retrospective observational study? A. Use of random assignment B. Collection of data from existing records C. Tracking individuals forward in time D. Ability to establish causation
+2. A study examines hospital records from the past 10 years to investigate factors related to patient recovery times. This study is best described as A. A prospective study B. A randomized experiment C. A retrospective observational study D. A census
+3. Which is a major disadvantage of retrospective studies? A. High cost B. Long completion time C. Lack of control over data quality D. Difficulty recruiting subjects
+4. Which type of bias is most strongly associated with voluntary response surveys? A. Undercoverage bias B. Response bias C. Nonresponse bias D. Overrepresentation of individuals with strong opinions
+5. A school surveys students by asking them to stop by the main office during lunch if they want to give feedback on school lunches. This sampling method is best described as A. Simple random sampling B. Stratified sampling C. Convenience sampling D. Systematic sampling
+6. Sampling bias refers to A. Random differences between samples B. A flaw in a specific sample C. A flaw in the sampling method D. Incorrect conclusions drawn from data
+7. Which situation best illustrates undercoverage bias? A. Only students who respond to emails are counted B. Surveying shoppers during weekday mornings C. Asking sensitive questions face-to-face D. Allowing participants to self-select
+8. Asking, “Don’t you agree that longer school days are harmful to students?” is an example of A. Nonresponse bias B. Quota sampling bias C. Question wording bias D. Undercoverage bias
+9. Which sampling method guarantees that every possible sample of a given size has an equal chance of selection? A. Systematic sampling B. Stratified sampling C. Simple random sampling D. Cluster sampling
+10. Which is a disadvantage of simple random sampling? A. It always produces biased results B. It requires minimal planning C. Important groups may be underrepresented D. It cannot be used to make inferences
+11. A population is divided into age groups, and a random sample is taken from each group. This method is A. Cluster sampling B. Systematic sampling C. Stratified sampling D. Convenience sampling
+12. Which statement correctly compares stratified and cluster sampling? A. Both require homogeneous groups B. Stratified samples use heterogeneous groups C. Cluster samples select entire groups D. Both guarantee unbiased estimates
+13. A researcher randomly selects 10 classrooms and surveys every student in those classrooms. This is an example of A. Simple random sampling B. Stratified sampling C. Cluster sampling D. Systematic sampling
+14. Which situation could cause a biased systematic sample? A. The population list is alphabetical B. The starting point is random C. The list has a repeating pattern related to the variable of interest D. The sample size is large
+15. Sampling variability refers to A. Bias in the sampling method B. Differences between individuals in the population C. Natural variation between samples D. Errors made by the researcher
+16. A sampling method produces estimates tightly clustered around the wrong value. This method is best described as A. Accurate and precise B. Accurate but not precise C. Precise but biased D. Random but unbiased
+17. Which conclusion is valid from an observational study? A. The treatment caused the response B. There is an association between variables C. The explanatory variable controls the response D. Confounding variables were eliminated
+18. The key feature that allows experiments to suggest cause-and-effect relationships is A. Random sampling B. Large sample size C. Random assignment D. Blocking
+19. Which design feature helps reduce the effects of confounding variables? A. Blinding B. Random assignment C. Replication D. Response measurement
+20. In an experiment, a factor is A. The outcome being measured B. A variable that explains the response C. A group of experimental units D. The placebo group
+21. An experiment compares two treatments using the same subjects, each receiving both treatments in random order. This design is called A. Completely randomized B. Stratified C. Matched pairs D. Cluster
+22. The placebo effect refers to A. Random error in measurement B. Subjects responding because they believe they are treated C. Researchers influencing results D. Differences caused by random assignment
+23. Double-blinding is used primarily to reduce A. Sampling variability B. Undercoverage bias C. Response bias from subjects and evaluators D. Confounding variables
+24. Replication in an experiment means A. Repeating the experiment multiple times B. Using a control group C. Having multiple experimental units per treatment D. Randomly assigning subjects
+25. For results of an experiment to be generalized to a population, which condition must also be met? A. Random assignment to treatments B. Use of blocking C. Large treatment effects D. Random selection of subjects
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Answer Key
+	•	C
+	•	C
+	•	C
+	•	D
+	•	C
+	•	C
+	•	B
+	•	C
+	•	C
+	•	C
+	•	C
+	•	C
+	•	C
+	•	C
+	•	C
+	•	C
+	•	B
+	•	C
+	•	B
+	•	B
+	•	C
+	•	B
+	•	C
+	•	C
+	•	D
+Unit-4
+AP Statistics Unit 4
+1. The Law of Large Numbers states that as the number of trials increases, A. The probability of success increases B. The relative frequency approaches the true probability C. Outcomes become equally likely D. Short-term results disappear
+2. Which condition is required for the Law of Large Numbers to apply? A. Outcomes must be normally distributed B. Trials must be independent with constant probability C. The sample must be randomly selected D. The experiment must be unbiased
+3. A fair coin is flipped 10 times and lands heads 8 times. Which statement is most appropriate? A. The coin is biased B. The probability of heads is increasing C. This result contradicts the Law of Large Numbers D. This result is plausible in the short run
+4. Which probability statement is always true? A. P(A or B) = P(A) + P(B) B. P(A and B) = P(A) + P(B) C. P(Aᶜ) = 1 − P(A) D. P(A|B) = P(B|A)
+5. Two events are mutually exclusive if A. They have the same probability B. They are independent C. They cannot occur at the same time D. Their probabilities sum to 1
+6. If events A and B are independent, which statement must be true? A. P(A|B) = P(A) B. P(A or B) = 1 C. P(A and B) = P(A) + P(B) D. A and B are mutually exclusive
+7. A random variable is best described as A. A variable that changes randomly B. A numerical value assigned to each outcome C. A probability distribution D. A sample statistic
+8. Which situation defines a discrete random variable? A. Time until a bus arrives B. Height of a randomly selected student C. Number of defective items in a shipment D. Amount of rainfall in a day
+9. The expected value of a random variable represents A. The most likely outcome B. The median of the distribution C. The long-run average value D. The maximum possible value
+10. A game costs $5 to play. The expected winnings are $3. What is the expected net gain for a player? A. −$8 B. −$2 C. $2 D. $8
+11. If a constant c is added to every value of a random variable X, A. The mean and standard deviation both increase by c B. The mean increases by c, standard deviation unchanged C. The mean unchanged, standard deviation increases by c D. Both mean and standard deviation unchanged
+12. If all values of a random variable X are multiplied by 3, A. The mean triples and the standard deviation triples B. The mean triples and variance triples C. The mean triples and standard deviation unchanged D. The variance triples and mean unchanged
+13. Let X and Y be independent random variables. What is the mean of X + Y? A. µX − µY B. µX × µY C. µX + µY D. √(µX² + µY²)
+14. If X and Y are independent, the variance of X + Y equals A. σX + σY B. σX² + σY² C. √(σX² + σY²) D. σX × σY
+15. A binomial setting requires A. Independent trials with constant probability and two outcomes B. Normally distributed outcomes C. Sampling without replacement D. A continuous random variable
+16. Which scenario is a binomial experiment? A. Rolling a die until a 6 appears B. Counting the number of heads in 20 coin flips C. Measuring wait times at a restaurant D. Selecting students until one passes a test
+17. In a binomial distribution, increasing n while holding p constant will A. Increase variability proportionally B. Decrease the expected value C. Increase the expected value D. Make the distribution uniform
+18. The expected number of successes in a binomial distribution is A. np B. √np C. pⁿ D. n/p
+19. A geometric distribution is used to model A. The number of successes in n trials B. The time between events C. The trial on which the first success occurs D. Continuous waiting times
+20. Which condition must be met for a geometric distribution? A. Sampling without replacement B. Success probability changes each trial C. Independent trials with constant p D. At least two successes
+21. If p = 0.2, what is P(X = 1) in a geometric distribution? A. 0.8 B. 0.2 C. 0.16 D. 0.04
+22. For a geometric distribution with p = 0.3, P(X ≤ 2) represents A. Probability of two successes B. Probability of failure on the second trial C. Probability first success occurs on or before trial 2 D. Probability of at least two failures
+23. A cumulative probability distribution shows A. P(X = x) B. P(X ≥ x) C. P(X ≤ x) D. The expected value
+24. If the expected value of a lottery ticket is −$0.25, this means A. You will lose $0.25 every time B. The lottery is fair C. The seller gains $0.25 per ticket on average D. The probability of winning is low
+25. Which statement best explains why casinos make money in the long run? A. Gamblers eventually win B. Short-term variation favors the house C. Expected values favor the casino D. Outcomes become predictable in the short run
+
+
+
+
+
+
+
+
+
+
+
+
+
+Answer Key
+	•	B
+	•	B
+	•	D
+	•	C
+	•	C
+	•	A
+	•	B
+	•	C
+	•	C
+	•	B
+	•	B
+	•	A
+	•	C
+	•	B
+	•	A
+	•	B
+	•	C
+	•	A
+	•	C
+	•	C
+	•	B
+	•	C
+	•	C
+	•	C
+	•	C
+
+
+Unit-5
+AP Statistics Unit 5
+1. A normal distribution is best used to model A. All population distributions B. Only categorical data C. Many sampling distributions of statistics D. Only small samples
+2. A z-score represents A. The probability of an outcome B. The distance from the mean in standard deviations C. The area under the normal curve D. The percentile of an observation
+3. If a value has a z-score of −2, this means the value is A. Two units below the mean B. Two standard deviations below the mean C. In the lowest 2% D. Not unusual
+4. Which calculator command finds the probability between two values in a normal distribution? A. invNorm B. zScore C. normalcdf D. binompdf
+5. Which information is required to calculate a probability using a normal model with raw data? A. Sample size only B. Mean and variance C. Mean and standard deviation D. Median and IQR
+6. For full AP credit when doing a normal probability calculation, students must always identify A. The calculator command used B. The sample size C. The distribution and its parameters D. The z-score only
+7. The Central Limit Theorem states that for sufficiently large n, A. The population distribution becomes normal B. The sampling distribution of the mean is approximately normal C. Individual observations become less variable D. The standard deviation of x̄ increases
+8. According to the CLT, the mean of the sampling distribution of x̄ equals A. σ B. σ / √n C. µ D. nµ
+9. The standard deviation of the sampling distribution of x̄ is A. σn B. σ / √n C. √σ / n D. σ / n
+10. Which statement about averages is correct? A. Averages vary more than individual values B. Averages based on small samples vary least C. Averages vary less as sample size increases D. Sample means are more variable than populations
+11. If the population distribution is normal, the sampling distribution of x̄ is A. Normal only if n ≥ 30 B. Normal regardless of sample size C. Approximately normal for large n only D. Skewed like the population
+12. A sampling distribution is biased if A. Its shape is skewed B. Its variability is large C. It is not centered at the population parameter D. The sample size is small
+13. Which statistic is known to be an unbiased estimator of its population parameter? A. Sample maximum B. Sample mean C. Sample minimum D. Sample range
+14. As sample size increases, the variability of an unbiased estimator typically A. Increases B. Decreases C. Remains constant D. Becomes biased
+15. For the sampling distribution of a sample proportion p̂ to be approximately normal, which condition must be met? A. p ≥ 0.5 B. n ≥ 30 C. np ≥ 10 and n(1 − p) ≥ 10 D. The population must be normal
+16. The mean of the sampling distribution of p̂ equals A. np B. √p(1 − p) C. p D. p̂
+17. The standard deviation of the sampling distribution of p̂ is A. √p(1 − p) B. √p(1 − p) / n C. √[p(1 − p) / n] D. p(1 − p) / n
+18. For two independent sample proportions, the mean of p̂₁ − p̂₂ is A. p₁ + p₂ B. p₁ − p₂ C. √(p₁² + p₂²) D. 0
+19. The standard deviation of p̂₁ − p̂₂ equals A. √[p₁(1 − p₁)/n₁ + p₂(1 − p₂)/n₂] B. p₁ − p₂ C. √(p₁ + p₂) D. (p₁ + p₂)/2
+20. The mean of the sampling distribution of x̄₁ − x̄₂ is A. σ₁ − σ₂ B. µ₁ − µ₂ C. √(µ₁² + µ₂²) D. 0
+21. For independent samples, the variance of x̄₁ − x̄₂ equals A. σ₁ + σ₂ B. σ₁² − σ₂² C. σ₁²/n₁ + σ₂²/n₂ D. (σ₁ − σ₂)/n
+22. Which condition helps justify using a normal model for a sampling distribution of x̄? A. Population is uniform B. Sample size is sufficiently large C. Sample proportion is near 0.5 D. Outcomes are independent only
+23. Simulation is most useful when A. The statistic is the mean B. The sampling distribution is known C. The statistic has an unfamiliar distribution D. Sample size is large
+24. A simulated sampling distribution of a statistic is centered well below the true population value. This suggests the statistic is A. Precise B. Efficient C. Unbiased D. Biased
+25. Which statistic is least likely to have an approximately normal sampling distribution? A. Sample mean B. Sample proportion C. Sample median from a small sample D. Difference of sample means with large n
+
+
+
+
+
+
+
+
+
+
+
+
+Answer Key
+	•	C
+	•	B
+	•	B
+	•	C
+	•	C
+	•	C
+	•	B
+	•	C
+	•	B
+	•	C
+	•	B
+	•	C
+	•	B
+	•	B
+	•	C
+	•	C
+	•	C
+	•	B
+	•	A
+	•	B
+	•	C
+	•	B
+	•	C
+	•	D
+	•	C
+
+
+Unit-6
+AP Statistics Unit 6
+1. A 95% confidence interval means that A. There is a 95% probability the parameter lies in the interval B. 95% of the data values are in the interval C. The method captures the true parameter in 95% of repeated samples D. The population parameter changes 95% of the time
+2. For a given confidence interval calculated from a single sample, the population parameter A. Is within the interval with probability 0.95 B. Is either in the interval or not C. Has a 95% chance of being captured D. Is random
+3. The confidence level of a confidence interval refers to A. The width of the interval B. The probability the parameter is in a specific interval C. The long-run success rate of the method D. The margin of error
+4. The margin of error is best described as A. The standard deviation of the population B. The standard error divided by sample size C. A multiple of the standard error D. The distance between sample statistics
+5. Increasing the confidence level while keeping the sample size fixed will A. Decrease the margin of error B. Increase the margin of error C. Decrease the standard error D. Leave the interval unchanged
+6. Which condition helps ensure independence when sampling without replacement? A. Normality condition B. Random assignment C. Large population D. The 10% condition
+7. The normality condition for inference on a population proportion requires A. p̂ ≥ 0.5 B. n ≥ 30 C. np ≥ 10 and n(1 − p) ≥ 10 D. The population distribution is normal
+8. For inference about a population mean, the Normal/Large Sample condition is satisfied if A. The population is skewed B. The sample size is small C. The population is normal or n ≥ 30 D. The sample is more than 10% of the population
+9. Which of the following would invalidate a confidence interval procedure? A. A small margin of error B. Violation of independence C. A large sample size D. A high confidence level
+10. When constructing a confidence interval for a population proportion, the standard deviation is estimated using A. p B. p0 C. p̂ D. √n
+11. The estimated standard deviation of a sampling distribution is called A. Variance B. Margin of error C. Standard error D. Bias
+12. If a 99% confidence interval for p does not include 0.50, which conclusion is justified? A. p = 0.50 B. There is convincing evidence p ≠ 0.50 at α = 0.01 C. The sample size was too small D. The confidence level is incorrect
+13. A hypothesis test and confidence interval will always lead to consistent conclusions when A. The sample size is large B. The test is one-sided C. The confidence level matches the significance level D. The population distribution is normal
+14. A Type I error occurs when A. A false null hypothesis is not rejected B. A true null hypothesis is rejected C. A false alternative hypothesis is accepted D. The P-value is large
+15. The significance level α represents A. The probability the null hypothesis is true B. The probability of a Type II error C. The probability of rejecting a true null hypothesis D. The probability of failing to reject a false null hypothesis
+16. A Type II error occurs when A. A true null hypothesis is rejected B. A false null hypothesis is not rejected C. A P-value is less than α D. The test has high power
+17. The power of a hypothesis test is A. The probability of a Type I error B. The probability the null hypothesis is true C. The probability of rejecting a false null hypothesis D. Equal to α
+18. Which change will increase the power of a test? A. Decreasing the sample size B. Decreasing the significance level C. Increasing the sample size D. Increasing variability
+19. When performing a significance test for a population proportion, the normality condition is checked using A. p̂ B. p0 C. Both p̂ and p0 D. n only
+20. In a two-sample z-test for a difference in proportions, the standard deviation is calculated using A. Separate sample proportions B. The pooled proportion C. The population proportions D. The margin of error
+21. The pooled proportion is used because A. The samples are independent B. The alternative hypothesis is two-sided C. The null hypothesis assumes equal proportions D. It reduces bias
+22. A confidence interval for p1 − p2 that is entirely positive suggests A. No difference between populations B. p1 = p2 C. p1 < p2 D. p1 > p2
+23. Which condition must be met for inference on the difference of two proportions? A. The samples must be the same size B. The populations must be identical C. The samples must be independent D. The population proportions must be known
+24. If a confidence interval for a difference in proportions includes 0, then A. The null hypothesis must be rejected B. There is convincing evidence of a difference C. The data are invalid D. There is not convincing evidence of a difference
+25. Which statement correctly compares confidence intervals and hypothesis tests? A. Confidence intervals are less informative B. Hypothesis tests provide parameter estimates C. Confidence intervals show plausible values of parameters D. Hypothesis tests always have greater power
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Answer Key
+	•	C
+	•	B
+	•	C
+	•	C
+	•	B
+	•	D
+	•	C
+	•	C
+	•	B
+	•	C
+	•	C
+	•	B
+	•	C
+	•	B
+	•	C
+	•	B
+	•	C
+	•	C
+	•	B
+	•	B
+	•	C
+	•	D
+	•	C
+	•	D
+	•	C
+
+Unit-7
+AP Statistics Unit 7
+1. The t-distribution is used instead of the normal distribution when A. The sample size is large B. The population is skewed C. The population standard deviation is unknown D. The data are categorical
+2. Compared to the standard normal distribution, the t-distribution is A. More concentrated near the mean B. Skewed right C. Shorter in the tails D. More spread out with heavier tails
+3. The degrees of freedom for a one-sample t-procedure are A. n B. n − 1 C. n + 1 D. √n
+4. As the sample size increases, the t-distribution A. Becomes more skewed B. Becomes identical to the population distribution C. Approaches the standard normal distribution D. Has fewer degrees of freedom
+5. In practice, the t-distribution is used frequently because A. σ is usually known B. s is a better estimate than σ C. σ is almost always unknown D. It produces narrower intervals
+6. The standard error of the sample mean is A. σ / √n B. s / n C. s / √n D. √s / n
+7. A one-sample t-interval for a mean requires which condition? A. Population must be uniform B. Population must be categorical C. Population is normal or n ≥ 30 D. σ must be known
+8. Increasing the confidence level of a t-interval while holding all else constant will A. Decrease the margin of error B. Increase the margin of error C. Decrease degrees of freedom D. Increase sample size
+9. If the sample size increases while the sample mean and s remain the same, the confidence interval will A. Become wider B. Stay the same C. Become narrower D. Shift location
+10. A confidence interval for μ that does not contain a hypothesized value μ₀ suggests A. μ₀ is likely correct B. There is convincing evidence against μ₀ C. The sample size is too small D. A Type II error occurred
+11. A one-sample t-test differs from a z-test primarily because A. It uses proportions B. It uses s instead of σ C. It requires paired data D. It cannot be two-sided
+12. A Type I error in a test for a mean occurs when A. A false null hypothesis is not rejected B. A true null hypothesis is rejected C. A false alternative is accepted D. The P-value is large
+13. In a two-sample t-interval for μ₁ − μ₂, the samples must be A. The same size B. Paired C. Independent D. Normally distributed regardless of size
+14. The standard deviation of the sampling distribution of x̄₁ − x̄₂ is A. s₁ + s₂ B. √(s₁² + s₂²) C. √(s₁²/n₁ + s₂²/n₂) D. (s₁ − s₂)/n
+15. If a confidence interval for μ₁ − μ₂ is entirely positive, this suggests A. μ₁ = μ₂ B. μ₁ < μ₂ C. μ₁ > μ₂ D. No significant difference
+16. In a two-sample t-test for means, the null hypothesis usually states A. μ₁ + μ₂ = 0 B. μ₁ = μ₂ C. σ₁ = σ₂ D. x̄₁ = x̄₂
+17. A paired t-procedure should be used when A. Two independent samples are collected B. Population variances are equal C. Each subject provides two measurements D. Sample sizes differ
+18. For paired data, inference is performed on A. Two separate sample means B. Two population means C. The mean of the differences D. The difference of standard deviations
+19. Using a two-sample t-procedure on paired data will A. Increase power B. Decrease variability C. Violate independence D. Improve accuracy
+20. Simulation-based P-values are useful when A. The statistic is a mean B. The sampling distribution is known C. The statistic has an unfamiliar distribution D. The sample size is large
+21. A simulation-based P-value represents A. The exact probability B. A theoretical result C. An estimate based on random chance D. The confidence level
+22. The power of a test is A. The probability of a Type I error B. The probability of a Type II error C. The probability of rejecting a false null hypothesis D. Equal to the significance level
+23. Which change will most increase the power of a t-test? A. Decreasing sample size B. Lowering α C. Increasing sample size D. Increasing variability
+24. A hypothesis test and confidence interval are consistent when A. The P-value is large B. The interval contains the null value C. The interval excludes the null value and H₀ is rejected D. The test is two-sided
+25. Which scenario requires a t-distribution rather than a normal distribution? A. Large n and known σ B. Small n and unknown σ C. Proportions with np ≥ 10 D. Differences of proportions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Answer Key
+	•	C
+	•	D
+	•	B
+	•	C
+	•	C
+	•	C
+	•	C
+	•	B
+	•	C
+	•	B
+	•	B
+	•	B
+	•	C
+	•	C
+	•	C
+	•	B
+	•	C
+	•	C
+	•	C
+	•	C
+	•	C
+	•	C
+	•	C
+	•	C
+	•	B
+
+
+Unit-8
+AP Statistics Unit 8
+1. A chi-square goodness-of-fit test is used to determine whether A. Two categorical variables are associated B. A sample mean differs from a population mean C. An observed categorical distribution fits a proposed model D. Population proportions are equal across groups
+2. The null hypothesis in a chi-square goodness-of-fit test states that A. All observed counts are equal B. The population distribution matches the stated proportions C. At least one category differs D. The chi-square statistic is small
+3. The chi-square statistic measures A. The difference between two sample means B. The largest deviation between observed and expected values C. The total weighted discrepancy between observed and expected counts D. The probability of observing the data
+4. A small chi-square value indicates A. A poor fit B. Strong evidence against the null C. Observed values close to expected values D. A large P-value is unlikely
+5. The chi-square distribution A. Is symmetric B. Can take negative values C. Is skewed to the right D. Approaches a uniform distribution
+6. As the degrees of freedom increase, a chi-square distribution A. Becomes more skewed B. Becomes closer to normal C. Has a lower mean D. Becomes symmetric around zero
+7. The degrees of freedom for a chi-square goodness-of-fit test are A. n − 1 B. Number of observations − number of categories C. Number of categories − 1 D. Number of expected values − 1
+8. Which condition must be met to safely use a chi-square test? A. All observed counts must be at least 5 B. All expected counts must be at least 5 C. The population must be normally distributed D. The sample size must exceed 100
+9. If the P-value in a chi-square goodness-of-fit test is 0.12, then at α = 0.05 you should A. Reject the null hypothesis B. Fail to reject the null hypothesis C. Conclude the fit is poor D. Conclude the alternative is true
+10. Which statement best interprets a large P-value in a goodness-of-fit test? A. The null hypothesis is proven true B. The data exactly match the model C. The observed differences are reasonably explained by chance D. The sample size was too small
+11. A chi-square test for independence is appropriate when A. Comparing means across populations B. Testing a single categorical variable C. Determining whether two categorical variables are related D. Comparing proportions from matched pairs
+12. The null hypothesis in a chi-square test for independence states that A. The row totals equal the column totals B. The two variables are independent C. One variable causes the other D. All expected counts are equal
+13. The degrees of freedom for a chi-square test for independence are A. r + c − 2 B. rc − 1 C. (r − 1)(c − 1) D. min(r, c) − 1
+14. Expected counts in a chi-square test for independence are found by A. Dividing observed counts by total sample size B. Multiplying row proportion by column proportion C. (Row total × Column total) / Grand total D. Subtracting observed from marginal totals
+15. If a chi-square test for independence leads to rejecting H₀, we may conclude A. One variable causes the other B. The variables are associated C. The proportions are equal D. The sample was biased
+16. Why can a chi-square test not establish causation? A. Expected counts are estimated B. The chi-square distribution is skewed C. The data are observational D. Degrees of freedom are limited
+17. A chi-square test for homogeneity differs from a test for independence because A. It uses different test statistics B. It compares distributions across multiple populations C. It requires paired data D. It uses proportions instead of counts
+18. In a chi-square test for homogeneity, the samples must be A. From the same population B. Matched pairs C. Independent random samples D. Normally distributed
+19. The null hypothesis in a chi-square test for homogeneity states that A. The populations are independent B. The categorical distributions are the same across populations C. The population proportions are known D. All cell counts are equal
+20. Which situation calls for a chi-square test for homogeneity? A. One sample classified by two variables B. One categorical variable compared to a model C. Several populations compared on one categorical variable D. Two quantitative variables compared
+21. Which of the following would violate a chi-square condition? A. Random samples B. Expected cell count of 12 C. Expected cell count of 3 D. Independent observations
+22. Increasing the sample size while keeping proportions the same will typically A. Decrease the chi-square statistic B. Increase the chi-square statistic C. Leave the chi-square statistic unchanged D. Reduce degrees of freedom
+23. A chi-square P-value represents A. The probability the null hypothesis is true B. The probability of observing a statistic as extreme or more extreme assuming H₀ is true C. The proportion of incorrect decisions D. The expected chi-square value
+24. For a goodness-of-fit test with 6 categories, the degrees of freedom are A. 5 B. 6 C. n − 6 D. 36
+25. Which test uses the chi-square distribution? A. One-sample t-test B. Two-sample z-test for proportions C. Test for association between categorical variables D. Paired t-test
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Answer Key
+	•	C
+	•	B
+	•	C
+	•	C
+	•	C
+	•	B
+	•	C
+	•	B
+	•	B
+	•	C
+	•	C
+	•	B
+	•	C
+	•	C
+	•	B
+	•	C
+	•	B
+	•	C
+	•	B
+	•	C
+	•	C
+	•	B
+	•	B
+	•	A
+	•	C
+
+Unit-9
+AP Statistics Unit 9
+1. The sampling distribution of the slope (b) of a least-squares regression line is approximately normal if: A. The sample size is large, regardless of the relationship between x and y B. The population y-values for each x are normally distributed and the relationship is linear C. The population standard deviation of x is zero D. The residuals are exactly zero
+2. The theoretical population regression model is expressed as: A. (y = b + x) B. μy​=α+βx C. b=∑(xi−xˉ)(yi−yˉ)b=∑(xi​−xˉ)(yi​−yˉ​) D. y^=yˉ
+3. The standard error of the slope, (s_b), is used because: A. The population standard deviation of y is unknown B. It gives a P-value directly C. It adjusts for degrees of freedom D. It makes the regression line steeper
+4. For inference about the slope ( \beta ), the t-statistic is: A. t=sb/​b​ with df = n − 1 B. t=sb/​b​ with df = n − 2 C. t=sb​/b−yˉ​​ with df = n − 2 D. t=bσ/bt=σb​b​ with df = n
+5. Conditions for inference on a regression slope include: A. Linear relationship, equal variance, residuals approximately normal, random sample, n < 10% of population B. Linear relationship only C. Residuals must be exactly zero D. Independent x-values only
+6. A 95% confidence interval for the slope β is found using: A. b±z∗n​sy​​ B.b±t∗sb​ with df = n − 2 C. b±t∗sxb±t∗sx​ with df = n − 1 D. b±z∗sbb±z∗sb​ with df = n − 2
+7. In Example 9.1, a 95% confidence interval for the slope is 0.64 to 0.89. Which is true? A. There is no evidence of a linear relationship B. The slope is zero C. We are 95% confident the true slope lies between 0.64 and 0.89, providing convincing evidence of a linear relationship D. The slope is exactly 0.64
+8. A slope of β = 0 in the population regression line implies: A. Perfect correlation B. No linear relationship between x and y C. Residuals are normally distributed D. x and y are independent
+9. For a hypothesis test of the slope (H_0: \beta = 0), a small P-value indicates: A. Strong evidence of a linear relationship between x and y B. No evidence of a linear relationship C. The slope is negative D. The correlation coefficient is zero
+10. Which condition is not necessary for valid inference on the slope? A. Random sample B. Linear scatterplot C. Residuals approximately normal D. x-values must be normally distributed
+11. In Example 9.3, the t-test for slope with n = 10 gave a P-value of 0.00019. The correct interpretation is: A. No linear relationship exists B. There is very strong evidence of a straight-line relationship with positive slope C. The slope is negative D. The sample size is too small
+12. In context, the least-squares regression line (y = 1x + 8.76) indicates: A. Each player’s new racket speed equals old racket speed plus 8.76 mph on average B. Each player’s new racket speed decreases by 8.76 mph C. The slope cannot be interpreted D. Only high-speed players benefit
+13. Why is the t-distribution used for inference about (b) rather than the normal distribution? A. Because b is a proportion B. Because σy is unknown and estimated with s C. Because the population slope is zero D. Because the sample is large
+14. Which of the following residual plots would violate the linearity condition? A. Random scatter around zero B. A funnel shape widening with x C. Residuals clustered near zero D. Points scattered evenly horizontally
+15. Which of the following statements is true? A. A significant slope implies a strong correlation B. Confidence intervals for the slope can include negative values C. t-tests for the slope use df = n − 1 D. Residuals do not need to be checked
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Answer Key
+	•	B
+	•	B
+	•	A
+	•	B
+	•	A
+	•	B
+	•	C
+	•	B
+	•	A
+	•	D
+	•	B
+	•	A
+	•	B
+	•	B
+	•	B
+

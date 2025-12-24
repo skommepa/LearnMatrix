@@ -1,0 +1,330 @@
+Unit-1
+AP Microeconomics Unit 1 Quiz
+	•	Scarcity exists because A. resources are unlimited and wants are limited B. wants are unlimited and resources are limited C. governments restrict production D. only money is scarce
+	•	Economics is best defined as the study of A. money and banking B. government regulation C. how individuals and societies allocate scarce resources D. business profit
+	•	Which situation best illustrates scarcity? A. A firm lowers prices B. A family chooses between saving or spending income C. A firm raises wages D. A country prints more money
+	•	Because of scarcity, consumers must A. eliminate wants B. avoid trade-offs C. make choices about resource allocation D. rely only on government
+	•	Which of the following is studied in microeconomics? A. Inflation rate B. GDP growth C. A firm’s hiring decision D. National unemployment
+	•	Which is a macroeconomic question? A. How a consumer chooses goods B. How a firm sets prices C. How money supply affects exports D. How workers choose hours
+	•	Which of the following is considered land? A. Machines B. Education C. Oil and water D. Money
+	•	Human capital refers to A. factory equipment B. money invested C. education and training D. natural resources
+	•	Which factor of production organizes the others? A. Labor B. Capital C. Government D. Entrepreneurship
+	•	A trade-off is A. the total cost of production B. the alternative given up C. a sunk cost D. an incentive
+	•	Opportunity cost is best defined as A. all alternatives given up B. explicit costs only C. the next best alternative forgone D. total spending
+	•	Forgone wages when choosing to study instead of work are an example of A. explicit cost B. sunk cost C. implicit cost D. marginal benefit
+	•	Which statement is an example of positive economics? A. Taxes are too high B. Income inequality is unfair C. Higher income increases consumption D. The government should intervene
+	•	Normative economics is based on A. facts and testing B. data only C. values and opinions D. mathematical models
+	•	Which statement is normative? A. Inflation increased last year B. Higher prices reduce quantity demanded C. Refurbishment programs benefit consumers D. Firms respond to incentives
+	•	The three basic economic questions are A. supply, demand, price B. who, why, when C. what, how, for whom D. growth, inflation, employment
+	•	In a command economy, prices and wages are A. set by consumers B. set by firms C. set by government D. set by markets
+	•	A disadvantage of a market economy is A. lack of competition B. slow innovation C. wealth inequality D. no consumer choice
+	•	A mixed economy A. has no private property B. relies only on markets C. relies only on government planning D. combines market forces with government intervention
+	•	A production possibilities curve shows A. all imaginable outputs B. the best combinations given resources C. consumer demand D. market prices
+	•	A curved PPC indicates A. constant opportunity cost B. decreasing opportunity cost C. increasing opportunity cost D. allocative efficiency
+	•	Economic growth is shown on a PPC as A. movement along the curve B. movement inside the curve C. an outward shift D. an inward shift
+	•	Productive efficiency occurs when production A. is inside the PPC B. is beyond the PPC C. occurs at the lowest cost on the PPC D. matches consumer preferences
+	•	Comparative advantage depends on A. total output B. opportunity cost C. money prices D. absolute output
+	•	Trade is beneficial when A. imports cost more than domestic goods B. opportunity costs are ignored C. the price from trade is lower than opportunity cost D. governments control production
+
+Answer Key
+	•	B
+	•	C
+	•	B
+	•	C
+	•	C
+	•	C
+	•	C
+	•	C
+	•	D
+	•	B
+	•	C
+	•	C
+	•	C
+	•	C
+	•	C
+	•	C
+	•	C
+	•	C
+	•	D
+	•	B
+	•	C
+	•	C
+	•	C
+	•	B
+	•	C
+
+Unit-2
+AP Microeconomics Unit 2 Quiz 
+	•	Demand is best defined as A. the amount producers want to sell B. the quantity consumers are willing and able to buy at different prices C. total market sales D. consumer income
+	•	The law of demand states that, ceteris paribus, A. price and quantity demanded move in the same direction B. price and quantity supplied move in opposite directions C. price and quantity demanded move in opposite directions D. demand always increases over time
+	•	A downward-sloping demand curve is explained by all of the following EXCEPT A. income effect B. substitution effect C. diminishing marginal utility D. increasing marginal cost
+	•	A movement along the demand curve is caused by a change in A. income B. taste C. price of the good D. number of buyers
+	•	If the price of coffee rises and consumers buy more tea, coffee and tea are A. complements B. inferior goods C. substitutes D. normal goods
+	•	Which of the following would increase demand for a normal good? A. A decrease in income B. An increase in income C. An increase in price D. A decrease in population
+	•	An inferior good is one for which demand A. increases as income increases B. decreases as income increases C. is unaffected by income D. increases as price increases
+	•	The law of diminishing marginal utility explains why A. demand curves slope upward B. firms raise prices C. consumers gain less satisfaction from additional units D. supply curves shift left
+	•	Supply is defined as A. total output produced B. quantity consumers buy C. quantity sellers are willing and able to produce at different prices D. quantity demanded at equilibrium
+	•	The law of supply states that A. price and quantity supplied are inversely related B. price and quantity supplied are directly related C. supply decreases when prices increase D. supply depends only on demand
+	•	An increase in production costs will cause A. movement along the supply curve B. supply to increase C. supply to decrease D. demand to decrease
+	•	An improvement in technology will most likely A. decrease supply B. shift supply left C. increase costs D. shift supply right
+	•	A subsidy to producers will A. reduce supply B. increase supply C. increase prices D. decrease quantity supplied
+	•	Price elasticity of demand measures A. how much price affects supply B. how much quantity demanded responds to price changes C. total revenue D. consumer surplus
+	•	Demand is elastic when elasticity is A. equal to 0 B. less than 1 C. equal to 1 D. greater than 1
+	•	If demand is inelastic, an increase in price will A. decrease total revenue B. have no effect on total revenue C. increase total revenue D. eliminate consumer surplus
+	•	Which good is most likely to have inelastic demand? A. Luxury sports car B. Restaurant meals C. Gasoline D. Brand-name clothing
+	•	Price elasticity of supply measures A. consumer responsiveness B. producer responsiveness to price changes C. income changes D. marginal cost
+	•	Supply is more elastic when A. production is difficult B. costs are high C. barriers to entry are low D. time is very short
+	•	Cross-price elasticity of demand is used to determine whether goods are A. normal or inferior B. elastic or inelastic C. substitutes or complements D. public or private
+	•	A negative cross-price elasticity indicates the goods are A. substitutes B. complements C. inferior D. unrelated
+	•	Market equilibrium occurs when A. demand is greater than supply B. supply is greater than demand C. quantity demanded equals quantity supplied D. prices are lowest
+	•	A price ceiling set below equilibrium will result in A. surplus B. shortage C. equilibrium D. deadweight loss only
+	•	Consumer surplus is equal to A. actual price minus willingness to pay B. willingness to pay minus actual price C. total revenue D. producer profit
+	•	Deadweight loss occurs when A. prices increase B. markets are perfectly competitive C. beneficial transactions do not occur due to intervention D. demand increases
+
+Answer Key
+	•	B
+	•	C
+	•	D
+	•	C
+	•	C
+	•	B
+	•	B
+	•	C
+	•	C
+	•	B
+	•	C
+	•	D
+	•	B
+	•	B
+	•	D
+	•	C
+	•	C
+	•	B
+	•	C
+	•	C
+	•	B
+	•	C
+	•	B
+	•	B
+	•	C
+
+Unit-3
+AP Microeconomics Unit 3 Quiz
+	•	A production function shows the relationship between A. price and quantity demanded B. inputs used and output produced C. cost and revenue D. profit and output
+	•	Which of the following is a fixed input in the short run? A. Labor hours B. Raw materials C. Factory building D. Electricity
+	•	The short run is defined as the time period in which A. all inputs are fixed B. all inputs are variable C. at least one input is fixed D. firms earn zero profit
+	•	The marginal product of labor (MPL) is calculated as A. Q/L B. TC/Q C. ΔQ/ΔL D. ΔTC/ΔQ
+	•	Diminishing marginal returns occur when A. total output decreases B. additional units of input add more output than before C. additional units of input add less output than before D. fixed costs increase
+	•	In the short run, fixed costs A. change with output B. increase as output rises C. remain constant regardless of output D. equal marginal cost
+	•	Variable costs A. do not change with output B. change with the level of output C. include rent and machinery D. equal total cost
+	•	Total cost is equal to A. AFC + AVC B. MC + ATC C. fixed cost + variable cost D. AVC × Q
+	•	Marginal cost measures A. cost per unit B. total cost divided by output C. change in total cost from one more unit of output D. fixed cost per unit
+	•	Average fixed cost (AFC) is calculated as A. FC + VC B. FC / Q C. VC / Q D. TC / Q
+	•	In the long run, firms can A. change only labor B. change only capital C. change all inputs D. not adjust production
+	•	Long-run average total cost (LRATC) represents A. minimum short-run cost B. costs when at least one input is fixed C. lowest possible cost of producing each output level D. marginal cost in the long run
+	•	Economies of scale occur when A. LRATC rises as output increases B. LRATC falls as output increases C. output rises faster than costs in the short run only D. firms shut down
+	•	Diseconomies of scale occur when A. output doubles as inputs double B. LRATC decreases C. LRATC increases as output increases D. firms earn zero profit
+	•	Constant returns to scale occur when A. output increases more than inputs B. output increases less than inputs C. output increases proportionally with inputs D. firms experience losses
+	•	Accounting profit is calculated as A. revenue minus total cost B. revenue minus explicit costs C. revenue minus implicit costs D. total cost minus revenue
+	•	Economic profit differs from accounting profit because it A. ignores explicit costs B. includes marginal cost C. subtracts implicit costs D. excludes revenue
+	•	Implicit costs are best described as A. out-of-pocket expenses B. sunk costs C. opportunity costs of owned resources D. taxes paid
+	•	Marginal revenue is A. revenue per unit B. total revenue divided by quantity C. additional revenue from selling one more unit D. profit earned
+	•	A profit-maximizing firm produces where A. ATC is minimized B. MC is minimized C. MR = MC D. MR = ATC
+	•	In the short run, a firm should continue producing as long as A. P ≥ ATC B. P ≥ AVC C. MR > ATC D. MC < ATC
+	•	If price is below AVC, the firm should A. produce more B. earn profit C. shut down D. enter the market
+	•	In the long run, a firm will exit the market if A. P > AVC B. P = MC C. P < ATC D. MR = MC
+	•	In perfect competition, firms are price takers because A. they set market prices B. products are differentiated C. they have market power D. they sell at the market equilibrium price
+	•	In the long run, perfectly competitive firms earn A. economic profit B. losses C. monopoly profit D. normal profit
+
+Answer Key
+	•	B
+	•	C
+	•	C
+	•	C
+	•	C
+	•	C
+	•	B
+	•	C
+	•	C
+	•	B
+	•	C
+	•	C
+	•	B
+	•	C
+	•	C
+	•	B
+	•	C
+	•	C
+	•	C
+	•	C
+	•	B
+	•	C
+	•	C
+	•	D
+	•	D
+
+Unit-4
+AP Microeconomics Unit 4 Quiz 
+	•	Imperfectly competitive markets are characterized by A. many firms and no barriers to entry B. firms being price takers C. firms having some control over price D. perfectly elastic demand
+	•	A major reason firms can earn long-run profits in imperfect competition is A. government subsidies B. fewer consumers C. lack of competition and barriers to entry D. perfectly elastic demand
+	•	Which of the following is a common barrier to entry? A. Advertising B. Product differentiation C. Control of scarce resources D. Perfect information
+	•	Which market structure has only one firm? A. Perfect competition B. Monopolistic competition C. Oligopoly D. Monopoly
+	•	In which market structure do firms have the most price control? A. Perfect competition B. Monopolistic competition C. Oligopoly D. Monopoly
+	•	A monopoly is best described as a market in which A. many firms sell identical products B. one firm produces a good with no close substitutes C. firms are price takers D. barriers to entry are low
+	•	The demand curve faced by a monopoly is A. perfectly elastic B. upward sloping C. downward sloping D. horizontal
+	•	A monopolist maximizes profit by producing where A. P = MC B. MR = MC C. ATC is minimized D. demand equals supply
+	•	The price charged by a monopoly is determined by A. MR = MC B. ATC = MC C. demand at the profit-maximizing quantity D. the supply curve
+	•	A monopoly is productively inefficient because it A. produces where P = MC B. produces more than socially optimal output C. does not produce at minimum ATC D. earns zero profit
+	•	A natural monopoly exists when A. demand is perfectly elastic B. firms face constant returns to scale C. large fixed costs create economies of scale D. firms collude
+	•	Government regulation of a natural monopoly often sets price equal to A. MC B. demand C. ATC D. MR
+	•	Price discrimination occurs when a firm A. charges the same price to all consumers B. charges different prices for the same good C. sells different products D. operates in perfect competition
+	•	For price discrimination to occur, a firm must have A. perfectly elastic demand B. no market power C. market power D. many competitors
+	•	Perfect price discrimination results in A. deadweight loss B. consumer surplus C. no consumer surplus and no deadweight loss D. allocative inefficiency
+	•	Which of the following is an example of price discrimination? A. Government price controls B. Coupons and bulk buying C. Minimum wage laws D. Price ceilings
+	•	Monopolistic competition is characterized by A. one firm and unique product B. many firms and identical products C. many firms and differentiated products D. few firms and collusion
+	•	Firms in monopolistic competition have A. perfectly elastic demand B. downward-sloping demand C. no control over price D. identical products
+	•	In the short run, monopolistically competitive firms can A. earn economic profit B. only earn losses C. earn only normal profit D. shut down permanently
+	•	In the long run, monopolistic competition results in A. economic profit B. monopoly profit C. normal profit D. losses
+	•	Monopolistic competition is allocatively inefficient because A. P < MC B. P = MC C. P > MC D. firms minimize ATC
+	•	An oligopoly is best described as a market with A. many firms selling identical goods B. one firm with no substitutes C. a small number of interdependent firms D. no barriers to entry
+	•	Firms in an oligopoly are interdependent because A. they sell identical products B. government controls prices C. each firm’s actions affect the others D. demand is perfectly elastic
+	•	A cartel is A. a firm that sets prices B. a group of firms that collude to control price and output C. a government agency D. a perfectly competitive market
+	•	In game theory, a Nash equilibrium occurs when A. both players choose the same strategy B. one firm earns maximum profit C. neither player can improve their payoff given the other’s choice D. firms collude
+
+Answer Key
+	•	C
+	•	C
+	•	C
+	•	D
+	•	D
+	•	B
+	•	C
+	•	B
+	•	C
+	•	C
+	•	C
+	•	C
+	•	B
+	•	C
+	•	C
+	•	B
+	•	C
+	•	B
+	•	A
+	•	C
+	•	C
+	•	C
+	•	C
+	•	B
+	•	C
+
+Unit-5
+AP Microeconomics Unit 5 Quiz
+	•	Which of the following is considered a factor of production? A. Money B. Entrepreneurship C. Labor D. Consumer goods
+	•	Wages are the payment made to A. land B. labor C. capital D. entrepreneurship
+	•	Interest is the payment made to A. labor B. land C. physical capital D. consumers
+	•	A production function shows the relationship between A. price and quantity demanded B. labor hired and output produced C. cost and revenue D. supply and demand
+	•	The law of diminishing marginal returns states that A. output will eventually fall B. marginal product always increases C. additional units of an input eventually add less output D. firms stop production
+	•	During which phase of production does marginal product decrease but remain positive? A. Increasing marginal product B. Decreasing marginal product C. Negative marginal product D. Constant marginal product
+	•	Marginal revenue product (MRP) is calculated as A. MP × wage B. MR ÷ MP C. MR × MP D. price ÷ MP
+	•	In a perfectly competitive product market, marginal revenue equals A. average cost B. marginal cost C. price D. wage
+	•	A firm’s demand for labor is equal to its A. marginal cost curve B. supply curve C. marginal revenue product curve D. average product curve
+	•	The demand curve for labor slopes downward because A. wages increase marginal product B. marginal product eventually diminishes C. labor supply is fixed D. firms are price makers
+	•	Market demand for labor is best described as A. the supply of labor B. one firm’s MRP C. the sum of all firms’ MRPs D. total population
+	•	The market supply of labor slopes upward because A. firms demand more workers B. higher wages encourage more workers to work C. marginal product increases D. technology improves
+	•	The equilibrium wage in the labor market is determined by A. government regulation B. firms’ marginal costs C. interaction of labor supply and labor demand D. marginal revenue product alone
+	•	An increase in demand for labor will cause A. the demand curve to shift left B. wages and employment to fall C. the demand curve to shift right D. the supply curve to shift right
+	•	In a perfectly competitive labor market, each firm is a A. wage maker B. price setter C. wage taker D. monopolist
+	•	Marginal resource cost (MRC) is defined as A. total labor cost B. cost per worker C. cost of hiring one more worker D. wage divided by output
+	•	In a perfectly competitive labor market, MRC is A. greater than the wage B. less than the wage C. equal to the wage D. unrelated to the wage
+	•	A profit-maximizing firm will hire labor up to the point where A. wage = marginal cost B. MRP = MRC C. MP = wage D. ATC is minimized
+	•	A monopsony is a market with A. many buyers of labor B. one seller of labor C. one buyer of labor D. no barriers to entry
+	•	In a monopsony, the marginal resource cost curve is A. equal to the wage B. below the supply curve C. above the supply curve D. horizontal
+	•	Compared to a perfectly competitive labor market, a monopsony A. pays higher wages and hires more workers B. pays lower wages and hires fewer workers C. pays higher wages and hires fewer workers D. pays lower wages and hires more workers
+	•	A monopsony is allocatively inefficient because A. P = MC B. MRP = wage C. MRP ≠ MRC at the competitive level D. firms earn zero profit
+	•	Deadweight loss in a monopsony occurs because A. too many workers are hired B. wages are too high C. beneficial labor transactions do not occur D. supply exceeds demand
+	•	To find the least-cost combination of resources, a firm should compare A. total product of inputs B. prices of resources only C. MP per dollar of each resource D. total cost of labor and capital
+	•	If MP/price is higher for capital than for labor, the firm should A. hire more labor B. hire more capital C. reduce both inputs D. change output price
+
+Answer Key
+	•	C
+	•	B
+	•	C
+	•	B
+	•	C
+	•	B
+	•	C
+	•	C
+	•	C
+	•	B
+	•	C
+	•	B
+	•	C
+	•	C
+	•	C
+	•	C
+	•	C
+	•	B
+	•	C
+	•	C
+	•	B
+	•	C
+	•	C
+	•	C
+	•	B
+
+Unit-6
+AP Microeconomics Unit 6 Quiz
+	•	A good is considered rival if: A. It is provided by the government B. One person’s consumption reduces another person’s ability to consume it C. It creates external benefits D. It must be paid for with taxes
+	•	A good that is both rival and excludable is a: A. Public good B. Private good C. Common resource D. Club good
+	•	Which of the following is an example of a public good? A. A hamburger B. A movie ticket C. Police protection D. A pair of shoes
+	•	Public goods are often underprovided by markets because of the: A. Law of demand B. Free-rider problem C. Income effect D. Substitution effect
+	•	The free-rider problem occurs because public goods are: A. Rival and excludable B. Excludable but non-rival C. Non-rival and non-excludable D. Costly to produce
+	•	A positive externality occurs when: A. Producers earn profits B. A third party receives a benefit without paying C. A firm charges a high price D. The government subsidizes production
+	•	The bee farmer benefiting from a neighboring flower farmer is an example of: A. A negative externality B. A public good C. A positive externality D. A common resource
+	•	When positive externalities exist, the market equilibrium quantity is: A. Greater than the socially optimal quantity B. Less than the socially optimal quantity C. Equal to the socially optimal quantity D. Zero
+	•	In markets with positive externalities: A. Private demand exceeds social demand B. Social demand exceeds private demand C. Supply exceeds demand D. Marginal social cost exceeds marginal benefit
+	•	Deadweight loss from positive externalities occurs because: A. Prices are too high B. Firms overproduce C. The market underproduces D. Taxes are imposed
+	•	A government subsidy is most appropriate when: A. A good creates spillover costs B. A good creates spillover benefits C. Demand is perfectly inelastic D. Firms have monopoly power
+	•	A negative externality occurs when: A. A third party bears a cost from production or consumption B. Firms experience losses C. Consumers receive extra benefits D. Demand exceeds supply
+	•	Pollution from coal-powered electricity is an example of: A. Spillover benefit B. Positive externality C. Spillover cost D. Public good
+	•	When negative externalities exist: A. Marginal private cost exceeds marginal social cost B. Marginal private cost equals marginal social cost C. Marginal social cost exceeds marginal private cost D. Demand exceeds supply
+	•	Markets with negative externalities tend to: A. Underproduce goods B. Overproduce goods C. Produce the efficient quantity D. Shut down
+	•	A pollution tax is designed to: A. Increase demand B. Eliminate firms C. Internalize spillover costs D. Increase consumer surplus
+	•	A pollution tax equal to the spillover cost will: A. Shift the private supply curve right B. Shift the private supply curve left C. Shift the demand curve right D. Eliminate deadweight loss by increasing output
+	•	The egalitarian view of income distribution supports: A. Income based on productivity B. Equal income for all individuals C. Higher wages for skilled workers D. Market-based income only
+	•	The marginal productivity theory of income distribution states that: A. Income should be equal B. Income depends on government policy C. Wages equal marginal revenue product D. Taxes determine wages
+	•	Income inequality can be caused by all of the following EXCEPT: A. Differences in human capital B. Market power C. Preferences for leisure D. Perfect competition
+	•	Income quintiles divide households into: A. Groups of equal income B. Groups of equal population size C. Groups based on education D. Groups based on tax brackets
+	•	The Lorenz curve is used to measure: A. Inflation B. Poverty levels C. Income inequality D. Economic growth
+	•	A Gini coefficient closer to zero indicates: A. Greater income inequality B. Perfect inequality C. More equal income distribution D. Higher tax rates
+	•	A progressive tax system is one in which: A. Everyone pays the same dollar amount B. Average tax rates fall as income rises C. Average tax rates rise as income rises D. Only the poor pay taxes
+	•	A regressive tax is best illustrated by: A. Federal income tax B. Sales tax C. Corporate income tax D. Property tax
+
+Answer Key
+	•	B
+	•	B
+	•	C
+	•	B
+	•	C
+	•	B
+	•	C
+	•	B
+	•	B
+	•	C
+	•	B
+	•	A
+	•	C
+	•	C
+	•	B
+	•	C
+	•	B
+	•	B
+	•	C
+	•	D
+	•	B
+	•	C
+	•	C
+	•	C
+	•	B
+

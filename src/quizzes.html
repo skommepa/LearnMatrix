@@ -19,7 +19,7 @@
             <ul>
                 <li><a href="/LearnMatrix/">Home</a></li>
                 <li><a href="/LearnMatrix/about.html">About</a></li>
-                <li><a href="/LearnMatrix/resources.html">Recources</a></li>
+                <li><a href="/LearnMatrix/resources.html">Resources</a></li>
                 <li><a href="/LearnMatrix/schedule.html">Schedule</a></li>
                 <li><a href="/LearnMatrix/dashboard.html">Dashboard</a></li>
                 <li><a href="/LearnMatrix/quizzes.html" class="active">Quiz</a></li>
@@ -30,6 +30,7 @@
     </header>
 
     <main>
+        <!-- SUBJECT SELECTION -->
         <div id="subject-selection" class="subject-selection-clean fade-in" style="padding: 2rem 0;">
             <div class="hero">
                 <h1>Matrix Archives</h1>
@@ -37,7 +38,7 @@
             </div>
 
             <section class="features" style="margin-top: 2rem;">
-                <div class="feature-card" onclick="startQuiz('AP Micro')">
+                <div class="feature-card" onclick="selectSubject('AP Micro')">
                     <div class="card-image-placeholder"
                         style="background: linear-gradient(135deg, #FF6B6B 0%, #FF8E53 100%);">
                         <span style="font-size: 3rem;">📉</span>
@@ -45,10 +46,10 @@
                     <div class="card-content">
                         <h3>AP Microeconomics</h3>
                         <p>Market behaviors and individual decision making.</p>
-                        <span class="btn-link">Initialize Quiz &rarr;</span>
+                        <span class="btn-link">Explore Units &rarr;</span>
                     </div>
                 </div>
-                <div class="feature-card" onclick="startQuiz('AP Macro')">
+                <div class="feature-card" onclick="selectSubject('AP Macro')">
                     <div class="card-image-placeholder"
                         style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
                         <span style="font-size: 3rem;">🌍</span>
@@ -56,10 +57,10 @@
                     <div class="card-content">
                         <h3>AP Macroeconomics</h3>
                         <p>Global economic systems and national indicators.</p>
-                        <span class="btn-link">Initialize Quiz &rarr;</span>
+                        <span class="btn-link">Explore Units &rarr;</span>
                     </div>
                 </div>
-                <div class="feature-card" onclick="startQuiz('AP Statistics')">
+                <div class="feature-card" onclick="selectSubject('AP Statistics')">
                     <div class="card-image-placeholder"
                         style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
                         <span style="font-size: 3rem;">📊</span>
@@ -67,10 +68,10 @@
                     <div class="card-content">
                         <h3>AP Statistics</h3>
                         <p>Probability patterns and data-driven inference.</p>
-                        <span class="btn-link">Initialize Quiz &rarr;</span>
+                        <span class="btn-link">Explore Units &rarr;</span>
                     </div>
                 </div>
-                <div class="feature-card" onclick="startQuiz('AP Euro')">
+                <div class="feature-card" onclick="selectSubject('AP Euro')">
                     <div class="card-image-placeholder"
                         style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
                         <span style="font-size: 3rem;">🏰</span>
@@ -78,10 +79,31 @@
                     <div class="card-content">
                         <h3>AP European History</h3>
                         <p>The cultural and political evolution of Europe.</p>
-                        <span class="btn-link">Initialize Quiz &rarr;</span>
+                        <span class="btn-link">Explore Units &rarr;</span>
                     </div>
                 </div>
             </section>
+        </div>
+
+        <!-- UNIT SELECTION -->
+        <div id="unit-selection" class="quiz-hud-container fade-in" style="display: none;">
+            <div class="quiz-hud-card">
+                <div class="hud-header">
+                    <div>
+                        <button onclick="exitQuiz()" class="btn-link"
+                            style="color: rgba(255,255,255,0.4); text-decoration: none; font-size: 0.9rem;">[BACK TO
+                            ARCHIVES]</button>
+                    </div>
+                    <div class="hud-stat-group">
+                        <div class="hud-label">Specialization</div>
+                        <div id="selected-subject-name" class="hud-value" style="font-size: 1.2rem;">AP MICRO</div>
+                    </div>
+                </div>
+                <h2 style="margin-bottom: 2rem; font-weight: 300;">Select Training Module</h2>
+                <div id="unit-grid" class="options-hud-grid">
+                    <!-- Units injected here -->
+                </div>
+            </div>
         </div>
 
         <!-- NEW HUD INTERFACE -->
@@ -92,7 +114,7 @@
 
                 <div class="hud-header">
                     <div>
-                        <button onclick="exitQuiz()" class="btn-link"
+                        <button onclick="cancelToUnits()" class="btn-link"
                             style="color: rgba(255,255,255,0.4); text-decoration: none; font-size: 0.9rem;">[ABORT
                             SESSION]</button>
                     </div>
@@ -128,6 +150,7 @@
             </div>
         </div>
 
+        <!-- SUMMARY SCREEN -->
         <div id="summary-screen" class="quiz-hud-container" style="display: none;">
             <div class="quiz-hud-card fade-in" style="text-align: center;">
                 <h1 id="result-title" style="margin-bottom: 2rem;">ANALYSIS COMPLETE</h1>
@@ -139,7 +162,7 @@
                 </p>
                 <div style="display: flex; gap: 1rem; justify-content: center; margin-top: 3rem;">
                     <button class="btn" onclick="retryQuiz()">RE-INITIALIZE</button>
-                    <button class="btn btn-secondary" onclick="exitQuiz()">MAIN ARCHIVE</button>
+                    <button class="btn btn-secondary" onclick="cancelToUnits()">SELECT UNIT</button>
                 </div>
             </div>
         </div>
@@ -156,7 +179,7 @@
                 <ul>
                     <li><a href="/LearnMatrix/">Home</a></li>
                     <li><a href="/LearnMatrix/about.html">About</a></li>
-                    <li><a href="/LearnMatrix/resources.html">Recources</a></li>
+                    <li><a href="/LearnMatrix/resources.html">Resources</a></li>
                     <li><a href="/LearnMatrix/chatbot.html">Chatbot</a></li>
                 </ul>
             </div>
@@ -183,6 +206,8 @@
         let streak = 0;
         let maxQuestions = 10;
         let selectedAnswer = null;
+        let activeSubject = null;
+        let activeUnit = null;
 
         async function loadQuizData() {
             try {
@@ -194,20 +219,52 @@
             }
         }
 
-        function startQuiz(subject) {
-            if (!currentQuizData || !currentQuizData[subject]) {
-                alert("Data packets not found for: " + subject);
+        function selectSubject(subject) {
+            activeSubject = subject;
+            document.getElementById('subject-selection').style.display = 'none';
+            document.getElementById('unit-grid').innerHTML = '';
+            document.getElementById('selected-subject-name').innerText = subject;
+
+            const units = Object.keys(currentQuizData[subject]);
+            units.forEach((unit, index) => {
+                const btn = document.createElement('button');
+                btn.className = 'option-hud-btn fade-in';
+                btn.style.animationDelay = `${index * 0.1}s`;
+                btn.innerHTML = `
+                    <div class="option-prefix">${index + 1}</div>
+                    <div class="option-content">${unit}</div>
+                `;
+                btn.onclick = () => startQuiz(subject, unit);
+                document.getElementById('unit-grid').appendChild(btn);
+            });
+
+            document.getElementById('unit-selection').style.display = 'block';
+        }
+
+        function cancelToUnits() {
+            document.getElementById('quiz-hud').style.display = 'none';
+            document.getElementById('summary-screen').style.display = 'none';
+            document.getElementById('unit-selection').style.display = 'block';
+        }
+
+        function startQuiz(subject, unit) {
+            activeSubject = subject;
+            activeUnit = unit;
+
+            if (!currentQuizData[subject] || !currentQuizData[subject][unit]) {
+                alert("Data packets not found for: " + subject + " " + unit);
                 return;
             }
 
-            const allQuestions = currentQuizData[subject];
+            const allQuestions = currentQuizData[subject][unit];
+            // Shuffle and pick 10
             questions = [...allQuestions].sort(() => 0.5 - Math.random()).slice(0, maxQuestions);
 
             currentQuestionIndex = 0;
             score = 0;
             streak = 0;
 
-            document.getElementById('subject-selection').style.display = 'none';
+            document.getElementById('unit-selection').style.display = 'none';
             document.getElementById('summary-screen').style.display = 'none';
             document.getElementById('quiz-hud').style.display = 'block';
 
@@ -290,9 +347,10 @@
         }
 
         function updateProgress() {
-            const progress = ((currentQuestionIndex) / maxQuestions) * 100;
+            const total = questions.length;
+            const progress = ((currentQuestionIndex) / total) * 100;
             document.getElementById('progress-bar').style.width = `${progress}%`;
-            document.getElementById('hud-stats').innerText = `${(currentQuestionIndex + 1).toString().padStart(2, '0')} / ${maxQuestions}`;
+            document.getElementById('hud-stats').innerText = `${(currentQuestionIndex + 1).toString().padStart(2, '0')} / ${total.toString().padStart(2, '0')}`;
         }
 
         function triggerSuccess() {
@@ -338,10 +396,10 @@
             document.getElementById('final-score').innerText = score;
 
             let title = "ANALYSIS COMPLETE";
-            let msg = "Neural sync successful. You've earned significant XP.";
+            let msg = "Neural sync successful. You've earned significant XP for this unit.";
 
-            if (score > 1200) { title = "MATRIX MASTER"; msg = "Absolute precision. You are the Chosen One."; }
-            else if (score < 500) { title = "SYNC FAILED"; msg = "Data corruption detected. Re-initialize for better results."; }
+            if (score > 1200) { title = "UNIT MASTER"; msg = "Absolute precision in this module. You are the Chosen One."; }
+            else if (score < 500) { title = "SYNC FAILED"; msg = "Data corruption detected in this unit. Re-initialize for better results."; }
 
             document.getElementById('result-title').innerText = title;
             document.getElementById('result-msg').innerText = msg;
@@ -349,15 +407,12 @@
         }
 
         function retryQuiz() {
-            const qHeader = questions[0].question;
-            const currentSub = Object.keys(currentQuizData).find(s =>
-                currentQuizData[s].some(q => q.question === qHeader)
-            );
-            startQuiz(currentSub);
+            startQuiz(activeSubject, activeUnit);
         }
 
         function exitQuiz() {
             document.getElementById('quiz-hud').style.display = 'none';
+            document.getElementById('unit-selection').style.display = 'none';
             document.getElementById('summary-screen').style.display = 'none';
             document.getElementById('subject-selection').style.display = 'block';
         }

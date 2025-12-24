@@ -1,0 +1,417 @@
+Unit-1
+Unit -1
+	•	Economics is primarily the study of ________.  a) Unlimited resources  b) Scarcity and choice  c) Weather patterns  d) Physics 
+	•	The word that means “all resources are limited but wants are unlimited” is:  a) Demand  b) Scarcity  c) Trade-off  d) Utility 
+	•	Microeconomics focuses on:  a) The national economy as a whole  b) Individual firms and consumers  c) The global economy  d) Weather forecasts 
+	•	Which is NOT a factor of production?  a) Labor  b) Time  c) Land  d) Capital 
+	•	Opportunity cost refers to:  a) Money spent during production  b) The next best alternative given up  c) Surplus goods  d) A government tax 
+	•	If you give up mowing a lawn earning $10/hr to study, the opportunity cost of studying is:  a) $10  b) $5  c) Nothing  d) $8 
+	•	The PPC curve is usually shaped:  a) Convex  b) Straight  c) Concave  d) Vertical 
+	•	What does the slope of the PPC represent?  a) Total output  b) Opportunity cost  c) Market price  d) Interest rate 
+	•	Which type of opportunity cost is realistic in production?  a) Constant  b) Increasing  c) Decreasing  d) None 
+	•	Points ON the PPC curve are:  a) Inefficient  b) Impossible  c) Productively efficient  d) Random 
+	•	Allocative efficiency refers to producing:  a) The most output possible  b) The most desired mix of goods  c) The least expensive product  d) The cheapest labor 
+	•	Growth occurs when:  a) Resources decline  b) Technology improves  c) Land disappears  d) Output falls 
+	•	Absolute advantage means:  a) Producing with fewer inputs  b) Producing more output with the same resources  c) Lower trade costs  d) Both a and b 
+	•	Comparative advantage is based on:  a) Total output  b) Lowest opportunity cost  c) Highest price  d) Trade deficits 
+	•	The law of demand states that if price rises:  a) Demand increases  b) Quantity demanded decreases  c) Demand stays the same  d) Production rises 
+	•	A shift in demand curve occurs because of:  a) Price change  b) Taxes  c) Income changes  d) Nothing 
+	•	INSECT stands for determinants of:  a) Supply  b) Equilibrium  c) Demand  d) Profit 
+	•	Normal goods see demand rise when:  a) Prices fall  b) Income rises  c) Taxes rise  d) Income falls 
+	•	Law of supply states as prices increase:  a) Quantity supplied increases  b) Demand increases  c) Quantity supplied decreases  d) Demand decreases 
+	•	ROTTEN refers to determinants of:  a) Supply  b) Price ceilings  c) GDP  d) Trade 
+	•	Market equilibrium exists when:  a) Quantity supplied = quantity demanded  b) Price is zero  c) Supply > demand  d) Demand > supply 
+	•	Excess supply means:  a) Shortage  b) Surplus  c) Equilibrium  d) Expansion 
+	•	If demand increases (supply constant), equilibrium price will:  a) Rise  b) Fall  c) Stay same  d) Drop to zero 
+	•	If supply decreases (demand constant), equilibrium quantity will:  a) Increase  b) Decrease  c) Stay same  d) Double 
+	•	When technology improves supply:  a) Increases  b) Decreases  c) Stays same  d) Disappears 
+
+ANSWERS
+	•	b 
+	•	b 
+	•	b 
+	•	b 
+	•	b 
+	•	a 
+	•	c 
+	•	b 
+	•	b 
+	•	c 
+	•	b 
+	•	b 
+	•	d 
+	•	b 
+	•	b 
+	•	c 
+	•	c 
+	•	b 
+	•	a 
+	•	a 
+	•	a 
+	•	b 
+	•	a 
+	•	b 
+	•	a
+
+Unit-2
+Unit - 2
+1. The circular flow model shows:
+a) How GDP is calculated  b) The movement of resources, goods, and money  c) International trade patterns  d) The business cycle
+2. A closed economy is one that:
+a) Has no taxes  b) Has no foreign trade  c) Has only banks and firms  d) Has only households
+3. In the circular flow diagram, households provide firms with:
+a) Goods  b) Factors of production  c) Technology  d) Taxes
+4. Firms receive money in the circular flow by selling goods in the:
+a) Factor market  b) Product market  c) Labor market  d) Capital market
+5. The market where labor is purchased is the:
+a) Product market  b) Money market  c) Factor market  d) Foreign market
+6. GDP stands for:
+a) Gross Domestic Productivity  b) Gross Domestic Profit  c) Gross Domestic Product  d) General Data Production
+7. GDP measures the market value of:
+a) All goods ever produced  b) Final goods & services within a country  c) Only exported goods  d) Only goods sold to consumers
+8. In GDP = C + I + G + (X – M), C represents:
+a) Cost of production  b) Consumer spending  c) Construction  d) Capital output
+9. Investment spending includes:
+a) Buying stocks  b) Buying new machines and structures  c) Government healthcare spending  d) Foreign purchases
+10. Government spending (G) includes:
+a) Transfer payments  b) Spending on final goods and services  c) Consumer loans  d) Interest payments
+11. Net exports equal:
+a) X + M  b) X × M  c) X – M  d) M – X
+12. Which is NOT counted in GDP?
+a) A new car produced this year  b) Illegal transactions  c) A new home built this year  d) Factory equipment purchased
+13. Transfer payments are excluded from GDP because:
+a) They are too small  b) They do not represent production  c) They are illegal  d) Only firms receive them
+14. GDP per capita is used to measure:
+a) Labor force size  b) Living standards  c) Trade conditions  d) Inflation rates
+15. Comparing two countries’ GDP without population consideration leads to:
+a) Population error  b) Shadow economy  c) Limitation of GDP  d) Inflation bias
+16. The “Inequality” limitation of GDP means:
+a) GDP ignores inflation  b) Income distribution is not shown  c) GDP counts illegal activity  d) GDP does not include imports
+17. Shadow economy refers to:
+a) Environmental pollution  b) Underground, unreported markets  c) Government revenue  d) Household savings
+18. The labor force includes:
+a) All citizens  b) Employed + unemployed seeking work  c) Only employed individuals  d) Only students
+19. A discouraged worker is:
+a) Counted in unemployment  b) Counted in the labor force  c) Not counted in unemployment  d) A seasonal worker
+20. Cyclical unemployment occurs because of:
+a) Climate change  b) Business cycle downturns  c) New technology  d) Job switching
+21. CPI measures:
+a) Inflation for producers  b) Consumer price changes  c) Trade activity  d) Real wages
+22. Inflation is defined as:
+a) A fall in prices  b) A rise in unemployment  c) The increase in general price levels  d) The increase in GDP
+23. Nominal income is:
+a) Income measured in constant dollars  b) Income adjusted for inflation  c) Current income measured in current dollars  d) Future income value
+24. Unexpected inflation generally hurts:
+a) Borrowers  b) Asset holders  c) Lenders and savers  d) Real estate owners
+25. Real GDP equals:
+a) Nominal GDP + inflation  b) Nominal GDP adjusted for price changes  c) Nominal GDP without imports  d) Exports minus imports
+
+ANSWER KEY
+	•	b 
+	•	b 
+	•	b 
+	•	b 
+	•	c 
+	•	c 
+	•	b 
+	•	b 
+	•	b 
+	•	b 
+	•	c 
+	•	b 
+	•	b 
+	•	b 
+	•	c 
+	•	b 
+	•	b 
+	•	b 
+	•	c 
+	•	b 
+	•	b 
+	•	c 
+	•	c 
+	•	c 
+	•	b
+
+Unit-3
+Unit - 3
+1. Aggregate demand shows the relationship between:
+A. Spending on domestic output and interest rates  B. Total spending on domestic output and the price level  C. Imports and exports only  D. Money supply and unemployment
+
+2. Which of the following is NOT a component of aggregate demand?
+A. Net exports  B. Investment spending  C. Government spending  D. Resource quality
+3. The foreign sector substitution effect occurs when:
+A. U.S. prices rise and imports increase  B. Prices fall and exports decrease  C. Wages rise and consumption rises  D. Interest rates increase investment
+4. The wealth effect says that when prices rise:
+A. Purchasing power of savings decreases  B. Savings increase  C. Output automatically rises  D. Imports fall
+5. The interest rate effect implies that:
+A. Lower prices increase borrowing  B. Higher prices reduce borrowing  C. Higher prices cause lower interest rates  D. Lower prices reduce consumption
+
+6. An increase in consumption spending will:
+A. Shift AD left  B. Shift AD right  C. Shift SRAS right  D. Shift LRAS right
+
+7. A decrease in government spending will:
+A. Shift AD left  B. Shift SRAS right  C. Shift AD right  D. Shift LRAS right
+
+8. If foreign incomes increase, U.S. exports will:
+A. Decrease and AD will fall  B. Increase and AD will rise  C. Stay constant  D. Become part of SRAS
+9. MPC + MPS equals:
+A. GDP  B. 1  C. 2  D. 0
+10. The spending multiplier equals:
+A. 1/MPS  B. MPC/MPS  C. 1/MPC  D. – MPC/MPS
+
+11. If the MPS = .2, the spending multiplier is:
+A. 2  B. 3  C. 4  D. 5
+
+12. The tax multiplier is:
+A. Always positive  B. Always negative  C. Always larger than the spending multiplier  D. Equal to GDP
+13. The tax multiplier formula is:
+A. 1/MPS  B. 1/MPC  C. – MPC/MPS  D. – 1/MPC
+14. Short-run aggregate supply slopes upward because:
+A. Input prices rise as output rises  B. Wages are flexible  C. Prices do not affect production  D. Technology changes constantly
+
+15. SRAS would shift right if:
+A. Regulation is increased  B. Input prices fall  C. Corporate taxes rise  D. Wages rise
+16. A negative supply shock will:
+A. Shift SRAS right  B. Shift SRAS left  C. Shift LRAS right  D. Shift AD left
+
+17. LRAS represents:
+A. Full-employment output  B. Consumer spending  C. Inflation in the economy  D. Aggregate demand only
+
+18. LRAS shifts right when:
+A. Taxes rise  B. Productivity rises  C. Resource supply falls  D. Prices fall
+
+19. A recessionary gap exists when:
+A. RGDP > GDPf  B. GDPf = GDPr  C. GDPr < GDPf  D. AD > SRAS
+20. To fix a recessionary gap, government should use:
+A. Contractionary fiscal policy  B. Expansionary fiscal policy  C. A tax increase  D. Lower government spending
+
+21. A rightward shift of AD would most likely cause:
+A. Higher unemployment  B. Inflationary pressure  C. Lower GDP  D. Lower price level
+
+22. Automatic stabilizers:
+A. Require new laws every recession  B. Include unemployment benefits  C. Include military spending  D. Never change taxes
+
+23. In the long run, an inflationary gap will self-correct by:
+A. SRAS shifting left  B. SRAS shifting right  C. AD shifting left  D. AD shifting right
+
+24. The spending multiplier is greater than the tax multiplier because:
+A. Taxes affect income before spending  B. Spending has no effect on GDP  C. Taxes increase AD more directly  D. MPC does not matter
+25. If government increases spending by $50 billion and MPC = .75, GDP will increase by:
+A. $50 billion  B. $100 billion  C. $150 billion  D. $200 billion
+
+ANSWER KEY 
+	•	B 
+	•	D 
+	•	A 
+	•	A 
+	•	B 
+	•	B 
+	•	A 
+	•	B 
+	•	B 
+	•	A 
+	•	D 
+	•	B 
+	•	C 
+	•	A 
+	•	B 
+	•	B 
+	•	A 
+	•	B 
+	•	C 
+	•	B 
+	•	B 
+	•	B 
+	•	A 
+	•	A 
+	•	D
+
+Unit-4
+1. A financial asset is chosen when its expected rate of return is:
+A. Lower than the real interest rate  B. Higher than the real interest rate  C. Equal to inflation  D. Unpredictable
+2. Liquidity refers to:
+A. How risky an asset is  B. How easily an asset can be converted to cash  C. How much profit an asset earns  D. The price level
+3. The most liquid asset is:
+A. Bonds  B. Stock  C. Cash  D. Real estate
+4. Stocks represent:
+A. A certificate of ownership in a firm  B. A form of bank debt  C. A guaranteed interest payment  D. A loan to the government
+5. Bonds represent:
+A. Equity in a company  B. Certificates of indebtedness  C. Bank deposits  D. Cash value
+6. Bond prices and interest rates move:
+A. Together  B. Independently  C. Inversely  D. Randomly
+7. When interest rates rise, bond prices:
+A. Rise  B. Fall  C. Remain unchanged  D. Double
+8. Nominal interest rate equals:
+A. Real interest + inflation  B. Inflation – real interest  C. Real interest – inflation  D. Inflation × real interest
+9. If inflation is 3% and nominal interest is 6%, real interest equals:
+A. 9%  B. 3%  C. 6%  D. 2%
+10. If real interest is negative, it means:
+A. Purchasing power increases  B. Inflation is below nominal rates  C. Nominal is below inflation  D. No investment exists
+11. Commodity money is:
+A. Backed by government trust  B. Money with another non-monetary use  C. Made only of gold  D. Always digital
+12. Money serving as a unit of account means:
+A. Money produces goods  B. Money stores wealth forever  C. Goods are valued in currency  D. Money cannot be saved
+13. M1 includes:
+A. Cash, coins, checking deposits  B. Checking + large time deposits  C. Stocks and bonds  D. Real estate assets
+14. M2 includes:
+A. Only cash  B. M1 + savings deposits  C. Only checking accounts  D. Government spending
+15. Fractional reserve banking means banks:
+A. Keep all deposits as reserves  B. Hold only a fraction of deposits  C. Lend no money  D. Hold no reserves
+16. Reserve ratio equals:
+A. Loans/total deposits  B. Cash reserves/total deposits  C. Deposits/loans  D. Assets/liabilities
+17. Money multiplier equals:
+A. 1/rr  B. rr/1  C. rr × deposits  D. assets – liabilities
+18. Money supply curve in the money market is:
+A. Upward sloping  B. Downward sloping  C. Vertical  D. Horizontal
+19. Transaction demand for money depends on:
+A. Nominal GDP  B. Real interest rate  C. Reserve ratio  D. Tax rate
+20. Asset demand for money is:
+A. Vertical  B. Unrelated to interest rates  C. Inversely related to interest rates  D. Always equal to zero
+21. Expansionary monetary policy does what?
+A. Increases interest rates and lowers GDP  B. Lowers interest rates and raises AD  C. Increases taxes  D. Raises reserve requirements
+22. The Fed buying bonds will:
+A. Decrease excess reserves  B. Increase money supply  C. Raise interest rates  D. Shift AD left
+23. Which tool changes reserves directly?
+A. Open market operations  B. Discount rate  C. Reserve requirement  D. Inflation rate
+24. In loanable funds, demand increases when:
+A. Borrowing decreases  B. Deficit spending increases  C. Savings increase  D. Inflation falls
+25. When supply of loanable funds increases:
+A. Real interest rates rise  B. Real interest rates fall  C. Demand rises  D. Government spending rises
+
+ANSWER KEY
+	•	B 
+	•	B 
+	•	C 
+	•	A 
+	•	B 
+	•	C 
+	•	B 
+	•	A 
+	•	B 
+	•	C 
+	•	B 
+	•	C 
+	•	A 
+	•	B 
+	•	B 
+	•	B 
+	•	A 
+	•	C 
+	•	A 
+	•	C 
+	•	B 
+	•	B 
+	•	C 
+	•	B 
+	•	B
+
+Unit-5
+1. When consumers and firms lose confidence in the economy, what happens to aggregate demand?  A. It shifts right  B. It shifts left  C. It becomes vertical  D. It does not change
+2. A recessionary gap exists when:  A. Real GDP is above full employment  B. Inflation is rising rapidly  C. Real GDP is below full employment  D. SRAS shifts left
+3. During a recessionary gap, which of the following occurs?  A. Higher wages and higher prices  B. Lower unemployment and higher GDP  C. Higher unemployment and lower price levels  D. Inflation and economic growth
+4. In the classical model, a recessionary gap closes because:  A. Government spending increases  B. Prices fall and SRAS shifts right  C. AD automatically shifts right  D. The Fed raises interest rates
+5. An inflationary gap is caused by:  A. A decrease in AD  B. A decrease in SRAS  C. An increase in AD beyond full employment  D. Falling wages
+6. Rising factor prices will cause:  A. SRAS to shift right  B. AD to shift left  C. SRAS to shift left  D. LRAS to shift right
+7. Which monetary policy is used to correct a recessionary gap?  A. Contractionary monetary policy  B. Neutral monetary policy  C. Expansionary monetary policy  D. Supply-side policy
+8. To correct an inflationary gap, the Federal Reserve should use:  A. Expansionary fiscal policy  B. Expansionary monetary policy  C. Contractionary monetary policy  D. Lower taxes
+9. Why is the Federal Reserve independent of Congress and the President?  A. To raise taxes  B. To avoid political pressure  C. To control fiscal policy  D. To increase government spending
+10. The Phillips Curve shows the relationship between:  A. GDP and price level  B. Inflation and unemployment  C. Interest rates and investment  D. Output and productivity
+11. In the short run, the Phillips Curve is:  A. Vertical  B. Horizontal  C. Downward sloping  D. Upward sloping
+12. The long-run Phillips Curve is vertical because:  A. Inflation never changes  B. Unemployment always increases  C. The economy returns to the natural rate of unemployment  D. Wages are fixed
+13. Demand-pull inflation occurs when:  A. Production costs rise  B. AD increases  C. SRAS decreases  D. Wages fall
+14. When AD increases in the upward-sloping range of SRAS:  A. GDP increases but prices fall  B. Prices increase but GDP falls  C. Both GDP and price level increase  D. Neither GDP nor prices change
+15. Cost-push inflation is caused by:  A. Increased consumer spending  B. Increased government spending  C. Decreased production  D. Increased money supply only
+16. Stagflation is characterized by:  A. Falling prices and rising GDP  B. Rising inflation and rising unemployment  C. Falling unemployment and rising prices  D. Economic growth with stable prices
+17. The wage-price spiral occurs when:  A. Demand rises and supply falls  B. Supply increases rapidly  C. Prices continuously fall  D. Unemployment falls permanently
+18. According to the Theory of Monetary Neutrality:  A. Money affects real GDP permanently  B. Money only affects price levels  C. Money reduces unemployment  D. Money controls productivity
+19. The Quantity Theory of Money states that:  A. Output determines money supply  B. Money supply determines price level  C. Velocity is always zero  D. Investment determines inflation
+20. The equation of exchange is:  A. AD = AS  B. GDP = C + I + G  C. MV = PQ  D. i = r + π
+21. If the money supply increases and output remains constant, what happens?  A. Prices fall  B. Prices rise  C. GDP falls  D. Unemployment rises
+22. A budget deficit occurs when:  A. Revenues exceed expenditures  B. Spending equals revenues  C. Expenditures exceed revenues  D. Taxes are eliminated
+23. The national debt is:  A. One year’s deficit  B. Government savings  C. The accumulation of past deficits  D. State and local borrowing
+24. The crowding out effect occurs when:  A. Government spending increases private investment  B. Government borrowing reduces private investment  C. Taxes decrease  D. SRAS shifts right
+25. Economic growth is best measured by:  A. Nominal GDP  B. Price level  C. Real GDP per capita  D. National debt
+
+Answer Key
+	•	B 
+	•	C 
+	•	C 
+	•	B 
+	•	C 
+	•	C 
+	•	C 
+	•	C 
+	•	B 
+	•	B 
+	•	C 
+	•	C 
+	•	B 
+	•	C 
+	•	C 
+	•	B 
+	•	A 
+	•	B 
+	•	B 
+	•	C 
+	•	B 
+	•	C 
+	•	C 
+	•	B 
+	•	C
+
+Unit-6
+Multiple Choice Questions
+1. The balance of payments statement shows:  A. Only exports and imports  B. Government spending and taxes  C. Payments sent to and received from foreign countries  D. Domestic investment only
+2. Which account records exports, imports, and investment income?  A. Capital account  B. Official reserves account  C. Current account  D. Financial surplus account
+3. If the U.S. imports more goods than it exports, the current account will:  A. Be in surplus  B. Be balanced  C. Be in deficit  D. Not change
+4. When a foreign firm buys a U.S. factory, it is recorded in the:  A. Current account  B. Capital (financial) account  C. Official reserves account  D. Trade account
+5. A surplus in the capital account means:  A. The U.S. is exporting more goods  B. More U.S. investment abroad  C. More foreign investment in the U.S.  D. The dollar is depreciating
+6. The official reserves account is used to:  A. Track tariffs and quotas  B. Adjust the balance of payments to zero  C. Control inflation  D. Set exchange rates
+7. If the U.S. runs a current account deficit, the capital account will typically:  A. Also be in deficit  B. Be unchanged  C. Be in surplus  D. Be eliminated
+8. An exchange rate is defined as:  A. The interest rate on foreign loans  B. The price of one currency in terms of another  C. The inflation rate  D. The balance of trade
+9. If foreign consumers demand more U.S. goods, the dollar will:  A. Depreciate  B. Appreciate  C. Remain unchanged  D. Be devalued
+10. When domestic consumers prefer foreign goods, the dollar tends to:  A. Appreciate  B. Depreciate  C. Become fixed  D. Increase exports
+11. Speculation affects exchange rates because:  A. Currencies are traded as assets  B. Governments fix prices  C. Inflation disappears  D. Trade stops
+12. In the foreign exchange market, demand for a currency is:  A. Directly related to exchange rates  B. Inversely related to exchange rates  C. Unrelated to exchange rates  D. Perfectly inelastic
+13. Supply of a currency in the FOREX market is:  A. Inversely related to exchange rates  B. Fixed  C. Directly related to exchange rates  D. Always equal to demand
+14. FOREX market equilibrium occurs when:  A. Exchange rates fall  B. Demand exceeds supply  C. Supply equals demand  D. Inflation is zero
+15. Expansionary monetary policy by the Fed will most likely cause the dollar to:  A. Appreciate  B. Depreciate  C. Remain constant  D. Be pegged
+16. A higher U.S. interest rate relative to Europe will:  A. Reduce demand for dollars  B. Increase demand for dollars  C. Cause the dollar to depreciate  D. Reduce capital inflows
+17. Expansionary fiscal policy will most likely:  A. Lower GDP  B. Decrease price levels  C. Increase GDP and prices  D. Reduce aggregate demand
+18. A protective tariff is designed to:  A. Raise government revenue only  B. Protect domestic producers  C. Increase imports  D. Lower consumer prices
+19. One major difference between tariffs and quotas is that:  A. Quotas raise government revenue  B. Tariffs do not affect prices  C. Tariffs raise revenue but quotas do not  D. Quotas reduce deadweight loss
+20. Both tariffs and quotas:  A. Increase consumer surplus  B. Lower domestic production  C. Create deadweight loss  D. Eliminate imports completely
+21. An appreciating currency will cause net exports to:  A. Increase  B. Decrease  C. Stay constant  D. Become zero
+22. A depreciating currency makes exports:  A. More expensive  B. Less competitive  C. Cheaper for foreigners  D. Unavailable
+23. High real interest rates in a country tend to cause:  A. Outbound capital flow  B. Inbound capital flow  C. Reduced investment  D. Currency depreciation
+24. Outbound capital flow occurs when:  A. Foreigners invest domestically  B. Domestic investors buy foreign assets  C. Interest rates are high  D. Net exports increase
+25. If a country’s real interest rate falls relative to others, its net exports will likely:  A. Decrease  B. Increase  C. Remain unchanged  D. Become negative
+
+Answer Key
+	•	C 
+	•	C 
+	•	C 
+	•	B 
+	•	C 
+	•	B 
+	•	C 
+	•	B 
+	•	B 
+	•	B 
+	•	A 
+	•	B 
+	•	C 
+	•	C 
+	•	B 
+	•	B 
+	•	C 
+	•	B 
+	•	C 
+	•	C 
+	•	B 
+	•	C 
+	•	B 
+	•	B 
+	•	B 
+
