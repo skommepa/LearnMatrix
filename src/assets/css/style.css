@@ -145,6 +145,7 @@ nav a.active {
   font-size: 1rem;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   border: none;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -228,6 +229,7 @@ main {
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  cursor: pointer;
 }
 
 .feature-card:hover {
@@ -273,6 +275,7 @@ main {
   font-weight: bold;
   font-size: 0.9rem;
   display: inline-block;
+  cursor: pointer;
 }
 
 /* Premium Footer */
@@ -525,6 +528,7 @@ main {
   font-size: 0.9rem;
   display: inline-block;
   transition: transform 0.2s, background-color 0.2s;
+  cursor: pointer;
 }
 
 .review-btn:hover {
