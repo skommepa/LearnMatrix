@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | LearnMatrix</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="/" class="logo">
+            <img src="assets/images/logo.png" alt="Compass"
+                style="height: 30px; vertical-align: middle; margin-right: 5px;">
+            LearnMatrix
+        </a>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/resources.html">Recources</a></li>
+                <li><a href="/schedule.html">Schedule</a></li>
+                <li><a href="/dashboard.html">Dashboard</a></li>
+                <li><a href="/quizzes.html">Quiz</a></li>
+                <li><a href="/login.html" class="user-profile"
+                        style="color: #fff; text-decoration: none; font-size: 1.2rem;">👤</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main style="display: flex; justify-content: center; align-items: center; min-height: 80vh;">
+        <div class="login-modal">
+            <button class="close-modal">&times;</button>
+
+            <div class="login-header">
+                <h2>Log In</h2>
+                <div class="signup-toggle">
+                    New to this site? <a href="#">Sign Up</a>
+                </div>
+            </div>
+
+            <form>
+                <div class="login-form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="login-input" required>
+                </div>
+
+                <div class="login-form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" class="login-input" required>
+                </div>
+
+                <a href="#" class="forgot-password">Forgot password?</a>
+
+                <button type="submit" class="login-btn-submit">Log In</button>
+            </form>
+
+            <div class="divider">
+                <span>or log in with</span>
+            </div>
+
+            <div class="social-login">
+                <!-- Using emojis as placeholders for brand icons if font library not available, or simple text -->
+                <div class="social-btn" style="color: #DB4437;">G</div>
+                <div class="social-btn" style="color: #4267B2;">f</div>
+                <div class="social-btn" style="color: #000;">🍎</div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="premium-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="/" class="logo">LearnMatrix</a>
+                <p>Empowering students to learn smarter.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/resources.html">Recources</a></li>
+                    <li><a href="/chatbot.html">Chatbot</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Connect</h4>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">IG</a>
+                    <a href="#" class="social-icon">FB</a>
+                    <a href="#" class="social-icon">X</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 LearnMatrix. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', (e) => {
+            e.preventDefault();
+            // Mock Login
+            localStorage.setItem('userLoggedIn', 'true');
+            alert('Login Successful!');
+            window.location.href = '/';
+        });
+    </script>
+</body>
+
+</html>

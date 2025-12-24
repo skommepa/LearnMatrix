@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard | LearnMatrix</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="/" class="logo">
+            <img src="assets/images/logo.png" alt="Compass"
+                style="height: 30px; vertical-align: middle; margin-right: 5px;">
+            LearnMatrix
+        </a>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/resources.html">Recources</a></li>
+                <li><a href="/schedule.html">Schedule</a></li>
+                <li><a href="/dashboard.html" class="active">Dashboard</a></li>
+                <li><a href="/quizzes.html">Quiz</a></li>
+                <li><a href="/login.html" class="user-profile"
+                        style="color: #fff; text-decoration: none; font-size: 1.2rem;">👤</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="dashboard-container">
+        <header class="dashboard-header">
+            <h1>Welcome back, Akshaj!</h1>
+            <p style="color: #ccc;">You're on a 5-day study streak. Keep it up! 🔥</p>
+        </header>
+
+        <!-- Main Content Column -->
+        <div style="display: flex; flex-direction: column; gap: 2rem;">
+
+            <!-- Overall Progress -->
+            <section class="dashboard-card">
+                <h2>My Progress <span style="font-size: 1rem; color: #888;">Updated 1hr ago</span></h2>
+
+                <div class="progress-item">
+                    <div class="progress-header">
+                        <span>AP Microeconomics</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" style="width: 75%;"></div>
+                    </div>
+                </div>
+
+                <div class="progress-item">
+                    <div class="progress-header">
+                        <span>AP Macroeconomics</span>
+                        <span>40%</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" style="width: 40%;"></div>
+                    </div>
+                </div>
+
+                <div class="progress-item">
+                    <div class="progress-header">
+                        <span>AP European History</span>
+                        <span>15%</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" style="width: 15%;"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Recent Activity -->
+            <section class="dashboard-card">
+                <h2>Recent Activity</h2>
+
+                <div class="activity-item">
+                    <div class="activity-icon">📝</div>
+                    <div class="activity-content">
+                        <h4>Completed "Supply & Demand" Quiz</h4>
+                        <div class="activity-meta">AP Micro • Score: 9/10 • 2 hours ago</div>
+                    </div>
+                </div>
+
+                <div class="activity-item">
+                    <div class="activity-icon">🎥</div>
+                    <div class="activity-content">
+                        <h4>Watched "Fiscal Policy" Review</h4>
+                        <div class="activity-meta">AP Macro • 15 mins • Yesterday</div>
+                    </div>
+                </div>
+
+                <div class="activity-item">
+                    <div class="activity-icon">📅</div>
+                    <div class="activity-content">
+                        <h4>Registered for "Essay Writing Workshop"</h4>
+                        <div class="activity-meta">Schedule • Oct 24, 5:30 PM</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Sidebar Column -->
+        <div style="display: flex; flex-direction: column; gap: 2rem;">
+
+            <!-- Quick Stats -->
+            <section class="dashboard-card">
+                <h2>Stats Overview</h2>
+                <div class="stats-grid">
+                    <div class="stat-box">
+                        <span class="stat-number">12</span>
+                        <span class="stat-label">Hours Studied</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-number">85%</span>
+                        <span class="stat-label">Avg Quiz Score</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-number">4</span>
+                        <span class="stat-label">Courses Active</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-number">🏆</span>
+                        <span class="stat-label">Top 10%</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Upcoming Session -->
+            <section class="dashboard-card" style="border-color: var(--primary-color);">
+                <h2 style="color: var(--primary-color); border-bottom-color: #333;">Next Up</h2>
+                <div style="text-align: center; padding: 1rem 0;">
+                    <span style="font-size: 3rem; display: block; margin-bottom: 0.5rem;">⏰</span>
+                    <h3 style="margin-bottom: 0.5rem;">AP Micro Review</h3>
+                    <p style="color: #888; margin-bottom: 1.5rem;">Starts in 2 hours</p>
+                    <a href="/schedule.html" class="book-btn"
+                        style="background: var(--primary-color); color: #000;">Join Session</a>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="premium-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="/" class="logo">LearnMatrix</a>
+                <p>Empowering students to learn smarter.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/resources.html">Recources</a></li>
+                    <li><a href="/schedule.html">Schedule</a></li>
+                    <li><a href="/dashboard.html">Dashboard</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Connect</h4>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">IG</a>
+                    <a href="#" class="social-icon">FB</a>
+                    <a href="#" class="social-icon">X</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 LearnMatrix. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

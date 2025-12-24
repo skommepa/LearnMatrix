@@ -1,0 +1,16 @@
+{
+  "name": "learnmatrix",
+  "version": "1.0.0",
+  "description": "LearnMatrix - Educational Resource Hub",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
