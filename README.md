@@ -70,3 +70,4 @@ LearnMatrix/
 ## 📜 License & Copyright
 This project is created for educational purposes as part of the FBLA 2025-2026 competition. All original assets are copyright LearnMatrix. External libraries and fonts are used under their respective open-source licenses (see `/citations.html`).
  
+ 
