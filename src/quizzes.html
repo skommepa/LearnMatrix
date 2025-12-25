@@ -396,10 +396,10 @@
             document.getElementById('final-score').innerText = score;
 
             let title = "ANALYSIS COMPLETE";
-            let msg = "Neural sync successful. You've earned significant XP for this unit.";
+            let msg = "You Nailed it!. You've earned significant XP for this unit.";
 
             if (score > 1200) { title = "UNIT MASTER"; msg = "Absolute precision in this module. You are the Chosen One."; }
-            else if (score < 500) { title = "SYNC FAILED"; msg = "Data corruption detected in this unit. Re-initialize for better results."; }
+            else if (score < 500) { title = "Good Try!"; msg = "You have scored below average. Keep practicing."; }
 
             document.getElementById('result-title').innerText = title;
             document.getElementById('result-msg').innerText = msg;
