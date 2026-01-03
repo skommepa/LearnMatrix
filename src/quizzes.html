@@ -21,8 +21,8 @@
                 <li><a href="/LearnMatrix/about.html">About</a></li>
                 <li><a href="/LearnMatrix/resources.html">Resources</a></li>
                 <li><a href="/LearnMatrix/schedule.html">Schedule</a></li>
-                <li><a href="/LearnMatrix/dashboard.html">Dashboard</a></li>
                 <li><a href="/LearnMatrix/quizzes.html" class="active">Quiz</a></li>
+                <li><a href="/LearnMatrix/dashboard.html">Dashboard</a></li>
                 <li><a href="/LearnMatrix/login.html" class="user-profile"
                         style="color: #fff; text-decoration: none; font-size: 1.2rem;">👤</a></li>
             </ul>
@@ -33,8 +33,8 @@
         <!-- SUBJECT SELECTION -->
         <div id="subject-selection" class="subject-selection-clean fade-in" style="padding: 2rem 0;">
             <div class="hero">
-                <h1>Matrix Archives</h1>
-                <p>Knowledge is the ultimate currency. Select your specialization.</p>
+                <h1>Quizzes</h1>
+                <p>Test your knowledge with interactive quizzes and level up you skills. .</p>
             </div>
 
             <section class="features" style="margin-top: 2rem;">
@@ -145,7 +145,7 @@
 
                 <div class="quiz-footer" style="padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.05);">
                     <button id="next-btn" class="btn" style="display: none; width: 200px;" onclick="nextQuestion()">NEXT
-                        SCAN &rarr;</button>
+                        QUESTION &rarr;</button>
                 </div>
             </div>
         </div>
@@ -264,6 +264,7 @@
             score = 0;
             streak = 0;
 
+            document.getElementById('subject-selection').style.display = 'none';
             document.getElementById('unit-selection').style.display = 'none';
             document.getElementById('summary-screen').style.display = 'none';
             document.getElementById('quiz-hud').style.display = 'block';
@@ -305,7 +306,7 @@
 
             selectedAnswer = index;
             const q = questions[currentQuestionIndex];
-            const buttons = document.querySelectorAll('.option-hud-btn');
+            const buttons = document.getElementById('options-grid').querySelectorAll('.option-hud-btn');
 
             if (index === q.answer) {
                 btn.classList.add('correct');
@@ -417,7 +418,18 @@
             document.getElementById('subject-selection').style.display = 'block';
         }
 
-        loadQuizData();
+        async function handleUrlParams() {
+            await loadQuizData();
+            const urlParams = new URLSearchParams(window.location.search);
+            const subject = urlParams.get('subject');
+            const unit = urlParams.get('unit');
+
+            if (subject && unit && currentQuizData[subject] && currentQuizData[subject][unit]) {
+                startQuiz(subject, unit);
+            }
+        }
+
+        handleUrlParams();
     </script>
     <script src="assets/js/script.js"></script>
 </body>
