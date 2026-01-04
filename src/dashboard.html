@@ -149,6 +149,7 @@
             <div class="footer-brand">
                 <a href="/LearnMatrix/" class="logo">LearnMatrix</a>
                 <p>Empowering students to learn smarter.</p>
+                <p>For AP Students By AP Students</p>
             </div>
             <div class="footer-links">
                 <h4>Quick Links</h4>
@@ -164,8 +165,7 @@
                 <div class="social-icons">
                     <a href="https://www.instagram.com/learnmatrixap/?igsh=NTlycml2aTk0YWdn&utm_source=qr#"
                         class="social-icon" target="_blank">IG</a>
-                    <a href="#" class="social-icon">FB</a>
-                    <a href="#" class="social-icon">X</a>
+                    <a href="mailto:learnmatrixap@gmail.com" class="social-icon">GM</a>
                 </div>
             </div>
         </div>
@@ -174,6 +174,92 @@
         </div>
     </footer>
     <script src="assets/js/script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // 1. Load User data
+            const user = localStorage.getItem('matrixUser') || 'Akshaj';
+            document.querySelector('.dashboard-header h1').innerText = `Welcome back, ${user}!`;
+
+            // 2. Load Progress
+            const progress = MatrixData.getProgress();
+            const progressContainer = document.querySelector('.dashboard-card:first-of-type');
+            const progressHeader = progressContainer.querySelector('h2');
+            progressContainer.innerHTML = '';
+            progressContainer.appendChild(progressHeader);
+
+            if (Object.keys(progress).length > 0) {
+                // Add real progress items
+                for (const [course, percent] of Object.entries(progress)) {
+                    const item = document.createElement('div');
+                    item.className = 'progress-item';
+                    item.innerHTML = `
+                        <div class="progress-header">
+                            <span>${course}</span>
+                            <span>${percent}%</span>
+                        </div>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar-fill" style="width: ${percent}%;"></div>
+                        </div>
+                    `;
+                    progressContainer.appendChild(item);
+                }
+            } else {
+                const emptyMsg = document.createElement('p');
+                emptyMsg.style.color = '#888';
+                emptyMsg.style.marginTop = '1rem';
+                emptyMsg.innerText = 'No progress tracked yet. Start a quiz to see your progress!';
+                progressContainer.appendChild(emptyMsg);
+            }
+
+            // 3. Load Recent Activity
+            const activities = MatrixData.getActivities();
+            const activitySection = document.querySelector('.dashboard-card:nth-of-type(2)');
+            const activityHeader = activitySection.querySelector('h2');
+            activitySection.innerHTML = '';
+            activitySection.appendChild(activityHeader);
+
+            if (activities.length > 0) {
+                activities.forEach(act => {
+                    const icon = act.type === 'quiz' ? '📝' : '🎥';
+                    const item = document.createElement('div');
+                    item.className = 'activity-item';
+
+                    // Simple relative time calculation
+                    const date = new Date(act.timestamp);
+                    const diff = (new Date() - date) / 1000;
+                    let timeStr = 'Just now';
+                    if (diff > 86400) timeStr = `${Math.floor(diff / 86400)}d ago`;
+                    else if (diff > 3600) timeStr = `${Math.floor(diff / 3600)}h ago`;
+                    else if (diff > 60) timeStr = `${Math.floor(diff / 60)}m ago`;
+
+                    item.innerHTML = `
+                        <div class="activity-icon">${icon}</div>
+                        <div class="activity-content">
+                            <h4>${act.title}</h4>
+                            <div class="activity-meta">${act.meta} • ${timeStr}</div>
+                        </div>
+                    `;
+                    activitySection.appendChild(item);
+                });
+            } else {
+                const emptyMsg = document.createElement('p');
+                emptyMsg.style.color = '#888';
+                emptyMsg.style.marginTop = '1rem';
+                emptyMsg.innerText = 'Your recent learning activities will appear here.';
+                activitySection.appendChild(emptyMsg);
+            }
+
+            // 4. Load Stats
+            const stats = MatrixData.getStats();
+            const statsGrid = document.querySelector('.stats-grid');
+            if (statsGrid) {
+                const boxes = statsGrid.querySelectorAll('.stat-box');
+                boxes[0].querySelector('.stat-number').innerText = stats.hours || '0';
+                boxes[1].querySelector('.stat-number').innerText = (stats.avgScore || '0') + '%';
+                boxes[2].querySelector('.stat-number').innerText = Object.keys(progress).length || '0';
+            }
+        });
+    </script>
 </body>
 
 </html>

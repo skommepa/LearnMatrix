@@ -120,8 +120,8 @@
                     </div>
                     <div style="display: flex; gap: 3rem;">
                         <div class="hud-stat-group">
-                            <div class="hud-label">Current Score</div>
-                            <div id="hud-score" class="hud-value">0000</div>
+                            <div class="hud-label">Correct Answers</div>
+                            <div id="hud-score" class="hud-value">0</div>
                         </div>
                         <div class="hud-stat-group">
                             <div class="hud-label">Session Progress</div>
@@ -156,7 +156,7 @@
                 <h1 id="result-title" style="margin-bottom: 2rem;">ANALYSIS COMPLETE</h1>
                 <div class="score-circle">
                     <div id="final-score" class="score-num">0</div>
-                    <div class="hud-label">TOTAL XP</div>
+                    <div class="hud-label">CORRECT</div>
                 </div>
                 <p id="result-msg" style="margin: 2rem 0; font-size: 1.2rem; opacity: 0.8;">Synchronization successful.
                 </p>
@@ -173,6 +173,7 @@
             <div class="footer-brand">
                 <a href="/LearnMatrix/" class="logo">LearnMatrix</a>
                 <p>Empowering students to learn smarter.</p>
+                <p>For AP Students By AP Students</p>
             </div>
             <div class="footer-links">
                 <h4>Quick Links</h4>
@@ -180,7 +181,6 @@
                     <li><a href="/LearnMatrix/">Home</a></li>
                     <li><a href="/LearnMatrix/about.html">About</a></li>
                     <li><a href="/LearnMatrix/resources.html">Resources</a></li>
-                    <li><a href="/LearnMatrix/chatbot.html">Chatbot</a></li>
                 </ul>
             </div>
             <div class="footer-social">
@@ -188,8 +188,7 @@
                 <div class="social-icons">
                     <a href="https://www.instagram.com/learnmatrixap/?igsh=NTlycml2aTk0YWdn&utm_source=qr#"
                         class="social-icon" target="_blank">IG</a>
-                    <a href="#" class="social-icon">FB</a>
-                    <a href="#" class="social-icon">X</a>
+                    <a href="mailto:learnmatrixap@gmail.com" class="social-icon">GM</a>
                 </div>
             </div>
         </div>
@@ -261,7 +260,7 @@
             questions = [...allQuestions].sort(() => 0.5 - Math.random()).slice(0, maxQuestions);
 
             currentQuestionIndex = 0;
-            score = 0;
+            score = 0; // Now represents number of correct answers
             streak = 0;
 
             document.getElementById('subject-selection').style.display = 'none';
@@ -269,7 +268,8 @@
             document.getElementById('summary-screen').style.display = 'none';
             document.getElementById('quiz-hud').style.display = 'block';
 
-            document.getElementById('hud-score').innerText = '0000';
+            document.getElementById('hud-score').innerText = '0';
+
 
             showQuestion();
         }
@@ -310,15 +310,11 @@
 
             if (index === q.answer) {
                 btn.classList.add('correct');
-                const baseXP = 100;
-                const bonus = streak * 25;
-                const earned = baseXP + bonus;
-
-                score += earned;
+                score++;
                 streak++;
 
                 triggerSuccess();
-                showStreakBadge(earned);
+                showStreakBadge();
             } else {
                 btn.classList.add('wrong');
                 buttons[q.answer].classList.add('correct');
@@ -327,25 +323,13 @@
                 triggerFail();
             }
 
-            animateScore(score);
+            document.getElementById('hud-score').innerText = score;
+
             document.getElementById('next-btn').style.display = 'block';
         }
 
-        function animateScore(target) {
-            const scoreEl = document.getElementById('hud-score');
-            const start = parseInt(scoreEl.innerText);
-            const duration = 800;
-            let startTime = null;
+        // Removed animateScore for simple count update
 
-            function step(timestamp) {
-                if (!startTime) startTime = timestamp;
-                const progress = Math.min((timestamp - startTime) / duration, 1);
-                const current = Math.floor(progress * (target - start) + start);
-                scoreEl.innerText = current.toString().padStart(4, '0');
-                if (progress < 1) window.requestAnimationFrame(step);
-            }
-            window.requestAnimationFrame(step);
-        }
 
         function updateProgress() {
             const total = questions.length;
@@ -370,13 +354,14 @@
             setTimeout(() => card.style.animation = '', 400);
         }
 
-        function showStreakBadge(added) {
+        function showStreakBadge() {
             const badge = document.getElementById('streak-badge');
             if (streak > 0) {
-                badge.innerText = `🔥 ${streak} STREAK (+${added} XP)`;
+                badge.innerText = `🔥 ${streak} STREAK`;
                 badge.style.display = 'block';
             }
         }
+
 
         function hideStreakBadge() {
             document.getElementById('streak-badge').style.display = 'none';
@@ -394,17 +379,32 @@
         function showSummary() {
             document.getElementById('quiz-hud').style.display = 'none';
             document.getElementById('summary-screen').style.display = 'block';
-            document.getElementById('final-score').innerText = score;
+            document.getElementById('final-score').innerText = `${score} / 10`;
 
             let title = "ANALYSIS COMPLETE";
-            let msg = "You Nailed it!. You've earned significant XP for this unit.";
+            let msg = "You've completed the unit training.";
 
-            if (score > 1200) { title = "UNIT MASTER"; msg = "Absolute precision in this module. You are the Chosen One."; }
-            else if (score < 500) { title = "Good Try!"; msg = "You have scored below average. Keep practicing."; }
+            if (score >= 9) { title = "UNIT MASTER"; msg = "Absolute precision in this module. You are the Chosen One."; }
+            else if (score < 5) { title = "Good Try!"; msg = "Keep practicing to improve your score."; }
+
 
             document.getElementById('result-title').innerText = title;
             document.getElementById('result-msg').innerText = msg;
             document.getElementById('progress-bar').style.width = '100%';
+
+            // Log activity and progress
+            if (activeSubject && activeUnit) {
+                const totalQuestions = questions.length;
+                const meta = `${activeSubject} • Score: ${score}/${totalQuestions}`;
+                MatrixData.logActivity('quiz', `Completed "${activeUnit}" Quiz`, meta);
+
+
+                // Update course progress (rough estimate based on 6 units per course)
+                const unitsPerCourse = 6;
+                const progressPerUnit = Math.round(100 / unitsPerCourse);
+                const currentProgress = MatrixData.getProgress()[activeSubject] || 0;
+                MatrixData.updateCourseProgress(activeSubject, currentProgress + progressPerUnit);
+            }
         }
 
         function retryQuiz() {
