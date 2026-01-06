@@ -23,6 +23,7 @@
                 <li><a href="/LearnMatrix/schedule.html">Schedule</a></li>
                 <li><a href="/LearnMatrix/quizzes.html">Quiz</a></li>
                 <li><a href="/LearnMatrix/dashboard.html" class="active">Dashboard</a></li>
+                <li><a href="/LearnMatrix/citations.html">Citations</a></li>
                 <li><a href="/LearnMatrix/login.html" class="user-profile"
                         style="color: #fff; text-decoration: none; font-size: 1.2rem;">👤</a></li>
             </ul>
@@ -31,8 +32,8 @@
 
     <main class="dashboard-container">
         <header class="dashboard-header">
-            <h1>Welcome back, Akshaj!</h1>
-            <p style="color: #ccc;">You're on a 5-day study streak. Keep it up! 🔥</p>
+            <h1>Welcome back!</h1>
+            <p style="color: #ccc;">Review notes and take quizzes to level up your knowledge.</p>
         </header>
 
         <!-- Main Content Column -->
@@ -155,9 +156,12 @@
                 <h4>Quick Links</h4>
                 <ul>
                     <li><a href="/LearnMatrix/">Home</a></li>
+                    <li><a href="/LearnMatrix/about.html">About</a></li>
                     <li><a href="/LearnMatrix/resources.html">Resources</a></li>
                     <li><a href="/LearnMatrix/schedule.html">Schedule</a></li>
+                    <li><a href="/LearnMatrix/quizzes.html">Quiz</a></li>
                     <li><a href="/LearnMatrix/dashboard.html">Dashboard</a></li>
+                    <li><a href="/LearnMatrix/citations.html">Citations</a></li>
                 </ul>
             </div>
             <div class="footer-social">
@@ -170,15 +174,17 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2024 LearnMatrix. All rights reserved.</p>
+            <p>This website was created for the FBLA Website Design competition to demonstrate website design,
+                navigation, and user experience.</p>
         </div>
     </footer>
     <script src="assets/js/script.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             // 1. Load User data
-            const user = localStorage.getItem('matrixUser') || 'Akshaj';
-            document.querySelector('.dashboard-header h1').innerText = `Welcome back, ${user}!`;
+            // 1. Load User data - removed to keep generic welcome message
+            // const user = localStorage.getItem('matrixUser') || 'Akshaj';
+            // document.querySelector('.dashboard-header h1').innerText = `Welcome back, ${user}!`;
 
             // 2. Load Progress
             const progress = MatrixData.getProgress();
